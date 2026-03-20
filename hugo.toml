@@ -10,8 +10,8 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Bassist · Composer · Improviser"
   description_es = "Bajista · Compositor · Improvisador"
-  tagline = 
-  tagline_es = 
+  tagline = ""
+  tagline_es = ""
   email_booking = "booking@marcusvaine.com"
   email_press = "prensa@julianmekler.com"
   email_general = "contacto@julianmekler.com"
