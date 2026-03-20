@@ -1,6 +1,6 @@
 ---
 title: "Por Ser"
-role: "contrabajo en 'La arena que entierra' y 'Eternidad'"
+role: "contrabajo en La arena que entierra y Eternidad"
 year: 2018
 artist: "Natalia Spiner"
 label: "self released"
