@@ -1,11 +1,9 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://mejler.github.io/sitio/"
 languageCode = "en"
 title = "Marcus Vaine"
 
-# Disable Hugo's default taxonomies (we don't need tags/categories)
 disableKinds = ["taxonomy", "term"]
 
-# Clean URLs: /shows/ instead of /shows.html
 [permalinks]
   news = "/news/:slug/"
 
@@ -26,7 +24,6 @@ disableKinds = ["taxonomy", "term"]
     spotify = "https://open.spotify.com/artist/XXXX"
     youtube = "https://youtube.com/@marcusvaine"
 
-# Main navigation menu
 [[menus.main]]
   name = "Shows"
   name_es = "Conciertos"
