@@ -1,0 +1,78 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-img"><img src="{{ .Site.Params.hero_image }}" alt="{{ .Site.Title }}" /></div>
+  <div class="hero-grad"></div>
+  <div class="hero-c">
+    <p class="hero-label"><span data-lang-en>{{ .Site.Params.description }}</span><span data-lang-es>{{ .Site.Params.description_es }}</span></p>
+    <h1 class="hero-name">{{ .Site.Title }}</h1>
+    <p class="hero-tag"><span data-lang-en>{{ .Site.Params.tagline }}</span><span data-lang-es>{{ .Site.Params.tagline_es }}</span></p>
+  </div>
+  <div class="hero-scroll"><span>Scroll</span><div class="hero-scroll-line"></div></div>
+</section>
+
+<section class="section news">
+  <div class="section-hd">
+    <span class="section-t"><span data-lang-en>Latest News</span><span data-lang-es>Novedades</span></span>
+    <a href="#" class="section-l"><span data-lang-en>All Updates →</span><span data-lang-es>Ver todo →</span></a>
+  </div>
+  <div class="news-grid">
+    {{ $news := where .Site.RegularPages "Section" "news" }}
+    {{ range first 5 (sort $news "Date" "desc") }}
+    {{ if .Params.featured }}
+    <article class="ni feat reveal">
+      {{ with .Params.image }}<div class="ni-img"><img src="{{ . }}" alt="" /></div>{{ end }}
+      <div>
+        <span class="ni-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <h3 data-lang-en>{{ .Title }}</h3>
+        {{ with .Params.title_es }}<h3 data-lang-es>{{ . }}</h3>{{ end }}
+        <p data-lang-en>{{ .Params.summary }}</p>
+        {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+        <span class="ni-arr">↗</span>
+      </div>
+    </article>
+    {{ else }}
+    <article class="ni reveal">
+      <span class="ni-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <h3 data-lang-en>{{ .Title }}</h3>
+      {{ with .Params.title_es }}<h3 data-lang-es>{{ . }}</h3>{{ end }}
+      <p data-lang-en>{{ .Params.summary }}</p>
+      {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+      <span class="ni-arr">↗</span>
+    </article>
+    {{ end }}
+    {{ end }}
+  </div>
+</section>
+
+<section class="section music">
+  <div class="music-in">
+    <div class="section-hd">
+      <span class="section-t"><span data-lang-en>Now Playing</span><span data-lang-es>Escuchá</span></span>
+      <a href="/listen/" class="section-l"><span data-lang-en>All Releases →</span><span data-lang-es>Discografía completa →</span></a>
+    </div>
+    {{/* Featured album — uses the first "leader" album from discography */}}
+    {{ $featured := index (where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader") 0 }}
+    {{ with $featured }}
+    <div class="mf reveal">
+      <div class="mf-slot">
+        {{ if .Params.bandcamp_embed }}
+        {{ .Params.bandcamp_embed | safeHTML }}
+        {{ else }}
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+        <span>Bandcamp Player</span>
+        {{ end }}
+      </div>
+      <div class="mf-info">
+        <h3>{{ .Title }}</h3>
+        <p class="yr"><span data-lang-en>New Release — {{ .Params.year }}</span><span data-lang-es>Nuevo lanzamiento — {{ .Params.year }}</span></p>
+        <p data-lang-en>{{ .Params.summary }}</p>
+        {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+        <a href="/listen/" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

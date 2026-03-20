@@ -1,0 +1,9 @@
+<footer>
+  <span class="fl">© {{ now.Year }} {{ .Site.Title }}.</span>
+  <ul class="fs">
+    {{ with .Site.Params.social.instagram }}<li><a href="{{ . }}" target="_blank" rel="noopener">Instagram</a></li>{{ end }}
+    {{ with .Site.Params.social.bandcamp }}<li><a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a></li>{{ end }}
+    {{ with .Site.Params.social.spotify }}<li><a href="{{ . }}" target="_blank" rel="noopener">Spotify</a></li>{{ end }}
+    {{ with .Site.Params.social.youtube }}<li><a href="{{ . }}" target="_blank" rel="noopener">YouTube</a></li>{{ end }}
+  </ul>
+</footer>

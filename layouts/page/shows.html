@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<header class="page-hd">
+  <h1 data-lang-en>Upcoming Shows</h1><h1 data-lang-es>Próximos Conciertos</h1>
+  <p data-lang-en>Live dates and ticket information.</p><p data-lang-es>Fechas en vivo e información de entradas.</p>
+</header>
+
+<section class="shows">
+  {{/* Split into upcoming and past based on date */}}
+  {{ $now := now }}
+  {{ $shows := where .Site.RegularPages "Section" "shows" }}
+  {{ $upcoming := where $shows ".Date" ">=" $now }}
+  {{ $past := where $shows ".Date" "<" $now }}
+
+  {{ range sort $upcoming "Date" "asc" }}
+  <div class="show-row reveal">
+    <span class="show-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <div class="show-venue">
+      <span class="show-vn">
+        {{ if .Params.maps_url }}<a href="{{ .Params.maps_url }}" target="_blank" rel="noopener">{{ .Params.venue }}</a>
+        {{ else }}{{ .Params.venue }}{{ end }}
+      </span>
+      <span class="show-vl">{{ .Params.city }}</span>
+    </div>
+    {{ if .Params.ticket_url }}
+    <a href="{{ .Params.ticket_url }}" class="show-tk" target="_blank" rel="noopener">
+      <span data-lang-en>Tickets</span><span data-lang-es>Entradas</span>
+    </a>
+    {{ else if .Params.free }}
+    <span class="show-nt"><span data-lang-en>Free entry</span><span data-lang-es>Entrada libre</span></span>
+    {{ else }}
+    <span class="show-nt"><span data-lang-en>TBA</span><span data-lang-es>A confirmar</span></span>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if $past }}
+  <p class="shows-div"><span data-lang-en>Past Shows</span><span data-lang-es>Shows Pasados</span></p>
+  {{ range sort $past "Date" "desc" }}
+  <div class="show-row past reveal">
+    <span class="show-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <div class="show-venue">
+      <span class="show-vn">{{ .Params.venue }}</span>
+      <span class="show-vl">{{ .Params.city }}</span>
+    </div>
+    <span></span>
+  </div>
+  {{ end }}
+  {{ end }}
+</section>
+
+{{ end }}

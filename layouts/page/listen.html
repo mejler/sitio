@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<header class="page-hd">
+  <h1 data-lang-en>Listen</h1><h1 data-lang-es>Escuchar</h1>
+  <p data-lang-en>Stream and explore the full catalog. Players powered by Bandcamp.</p>
+  <p data-lang-es>Escuchá y explorá el catálogo completo. Reproductores de Bandcamp.</p>
+</header>
+
+<section class="listen">
+  <div class="listen-grid">
+    {{ $albums := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
+    {{ range sort $albums ".Params.year" "desc" }}
+    <div class="li-item reveal">
+      <div class="li-player">
+        {{ if .Params.bandcamp_embed }}
+        {{ .Params.bandcamp_embed | safeHTML }}
+        {{ else }}
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+        <span>Bandcamp Player</span>
+        {{ end }}
+      </div>
+      <div class="li-info">
+        <h3>{{ .Title }}</h3>
+        <p class="li-meta">{{ .Params.year }} · {{ .Params.format }}</p>
+        <p data-lang-en>{{ .Params.summary }}</p>
+        {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+        <div class="li-links">
+          {{ with .Params.bandcamp_url }}<a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a>{{ end }}
+          {{ with .Params.spotify_url }}<a href="{{ . }}" target="_blank" rel="noopener">Spotify</a>{{ end }}
+          {{ with .Params.apple_url }}<a href="{{ . }}" target="_blank" rel="noopener">Apple Music</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

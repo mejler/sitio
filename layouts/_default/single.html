@@ -1,0 +1,8 @@
+{{ define "main" }}
+<header class="page-hd">
+  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+</header>
+<section style="padding: 0 3rem 5rem; max-width: 1200px; margin: 0 auto;">
+  {{ .Content }}
+</section>
+{{ end }}

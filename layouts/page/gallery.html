@@ -1,0 +1,79 @@
+{{ define "main" }}
+
+<header class="page-hd">
+  <h1 data-lang-en>Gallery</h1><h1 data-lang-es>Galería</h1>
+  <p data-lang-en>Live performances, studio sessions, and behind the scenes.</p>
+  <p data-lang-es>Shows en vivo, sesiones de estudio y detrás de escena.</p>
+</header>
+
+<div class="gal-tabs">
+  <button class="gal-tab active" data-tab="photos"><span data-lang-en>Photos</span><span data-lang-es>Fotos</span></button>
+  <button class="gal-tab" data-tab="videos">Videos</button>
+</div>
+
+<section class="gal-section" id="photos">
+  <div class="photo-grid">
+    {{ range .Params.photos }}
+    <div class="photo-item reveal">
+      <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" />
+      <div class="photo-ov"><span>{{ .caption }}</span></div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<section class="gal-section hidden" id="videos">
+  <div class="video-grid">
+    {{ range .Params.videos }}
+    <div class="vid-item reveal">
+      <div class="vid-embed">
+        {{ if .youtube_id }}
+        <iframe src="https://www.youtube.com/embed/{{ .youtube_id }}" allowfullscreen loading="lazy"></iframe>
+        {{ else }}
+        <div class="vid-ph">
+          <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><polygon points="10,8 16,11 10,14"/></svg>
+          <span>YouTube Embed</span>
+        </div>
+        {{ end }}
+      </div>
+      <div class="vid-info"><h4>{{ .title }}</h4><span>{{ .date }}</span></div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close">Close ✕</button>
+  <button class="lb-nav lb-prev">‹</button>
+  <button class="lb-nav lb-next">›</button>
+  <img src="" alt="" id="lightboxImg" />
+</div>
+
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+  // Tabs
+  document.querySelectorAll('.gal-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.gal-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const t = tab.dataset.tab;
+      document.getElementById('photos').classList.toggle('hidden', t !== 'photos');
+      document.getElementById('videos').classList.toggle('hidden', t !== 'videos');
+      document.querySelectorAll('#' + t + ' .reveal:not(.visible)').forEach(el => revealObs.observe(el));
+    });
+  });
+  // Lightbox
+  const lb = document.getElementById('lightbox'), lbi = document.getElementById('lightboxImg');
+  const phs = document.querySelectorAll('.photo-item img');
+  let ci = 0;
+  phs.forEach((img, i) => { img.addEventListener('click', () => { ci = i; lbi.src = img.src; lb.classList.add('open'); document.body.style.overflow = 'hidden'; }); });
+  const clb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
+  lb.querySelector('.lb-close').addEventListener('click', clb);
+  lb.addEventListener('click', e => { if (e.target === lb) clb(); });
+  lb.querySelector('.lb-prev').addEventListener('click', e => { e.stopPropagation(); ci = (ci - 1 + phs.length) % phs.length; lbi.src = phs[ci].src; });
+  lb.querySelector('.lb-next').addEventListener('click', e => { e.stopPropagation(); ci = (ci + 1) % phs.length; lbi.src = phs[ci].src; });
+  document.addEventListener('keydown', e => { if (!lb.classList.contains('open')) return; if (e.key === 'Escape') clb(); if (e.key === 'ArrowLeft') lb.querySelector('.lb-prev').click(); if (e.key === 'ArrowRight') lb.querySelector('.lb-next').click(); });
+</script>
+{{ end }}

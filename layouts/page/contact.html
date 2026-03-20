@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<div class="contact-wrap">
+  <div class="contact-info">
+    <h1 data-lang-en>Get In Touch</h1><h1 data-lang-es>Contacto</h1>
+    <p data-lang-en>For booking inquiries, press requests, or collaboration ideas — reach out through the form or the contacts below.</p>
+    <p data-lang-es>Para consultas de booking, prensa o colaboraciones — escribí a través del formulario o los contactos de abajo.</p>
+    <div class="cd"><p class="cd-label">Management / Booking</p><a href="mailto:{{ .Site.Params.email_booking }}">{{ .Site.Params.email_booking }}</a></div>
+    <div class="cd"><p class="cd-label"><span data-lang-en>Press</span><span data-lang-es>Prensa</span></p><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></div>
+    <div class="cd"><p class="cd-label">General</p><a href="mailto:{{ .Site.Params.email_general }}">{{ .Site.Params.email_general }}</a></div>
+    <ul class="c-socials">
+      {{ with .Site.Params.social.instagram }}<li><a href="{{ . }}" target="_blank" rel="noopener">Instagram</a></li>{{ end }}
+      {{ with .Site.Params.social.bandcamp }}<li><a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a></li>{{ end }}
+      {{ with .Site.Params.social.youtube }}<li><a href="{{ . }}" target="_blank" rel="noopener">YouTube</a></li>{{ end }}
+    </ul>
+  </div>
+  <div>
+    <form class="c-form" action="https://formspree.io/f/{{ .Site.Params.formspree_id }}" method="POST">
+      <div class="ff"><label for="name"><span data-lang-en>Name</span><span data-lang-es>Nombre</span></label><input type="text" id="name" name="name" required /></div>
+      <div class="ff"><label for="email">Email</label><input type="email" id="email" name="email" required /></div>
+      <div class="ff"><label for="subject"><span data-lang-en>Subject</span><span data-lang-es>Asunto</span></label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>—</option>
+          <option value="booking">Booking</option>
+          <option value="press">Press / Prensa</option>
+          <option value="collaboration">Collaboration / Colaboración</option>
+          <option value="general">General</option>
+        </select>
+      </div>
+      <div class="ff"><label for="message"><span data-lang-en>Message</span><span data-lang-es>Mensaje</span></label><textarea id="message" name="message" rows="4" required></textarea></div>
+      <button type="submit" class="f-submit"><span data-lang-en>Send Message</span><span data-lang-es>Enviar Mensaje</span></button>
+      <p class="f-note">Powered by Formspree.</p>
+    </form>
+  </div>
+</div>
+
+{{ end }}

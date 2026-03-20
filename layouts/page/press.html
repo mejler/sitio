@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Press Kit — {{ .Site.Title }}</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&family=Bebas+Neue&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header class="press-nav">
+    <a href="/">{{ .Site.Title }}</a>
+    <div class="press-nav-r">
+      <span class="press-badge">Press Kit / EPK</span>
+      <button class="lang-toggle" onclick="toggleLang()">ES</button>
+    </div>
+  </header>
+
+  <main class="press-wrap">
+    <div class="press-hd">
+      <h1 data-lang-en>Electronic Press Kit</h1><h1 data-lang-es>Kit de Prensa Electrónico</h1>
+      <p data-lang-en>For press inquiries, contact <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></p>
+      <p data-lang-es>Para consultas de prensa, escribir a <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></p>
+    </div>
+
+    {{ .Content }}
+  </main>
+
+  <footer class="press-ft">
+    <p>© {{ now.Year }} {{ .Site.Title }} · <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a> · <a href="/"><span data-lang-en>Back to main site</span><span data-lang-es>Volver al sitio</span></a></p>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
