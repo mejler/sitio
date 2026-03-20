@@ -1,12 +1,12 @@
 {{ $isHome := .IsHome }}
 <nav id="navbar"{{ if not $isHome }} class="solid"{{ end }}>
-  <a href="/" class="nav-logo">{{ .Site.Title }}</a>
+  <a href="{{ "" | relURL }}" class="nav-logo">{{ .Site.Title }}</a>
   <div class="nav-right" id="navRight">
     <ul class="nav-links">
-      <li><a href="/"{{ if $isHome }} class="active"{{ end }}>Home</a></li>
+      <li><a href="{{ "" | relURL }}"{{ if $isHome }} class="active"{{ end }}>Home</a></li>
       {{ range .Site.Menus.main }}
       <li>
-        <a href="{{ .URL }}"{{ if eq $.RelPermalink .URL }} class="active"{{ end }}>
+        <a href="{{ .URL | relURL }}"{{ if eq $.RelPermalink .URL }} class="active"{{ end }}>
           <span data-lang-en>{{ .Name }}</span>
           <span data-lang-es>{{ with .Params.name_es }}{{ . }}{{ else }}{{ $.Name }}{{ end }}</span>
         </a>
