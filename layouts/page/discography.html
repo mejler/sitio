@@ -1,49 +1,53 @@
 {{ define "main" }}
-
+ 
 <header class="page-hd">
   <h1 data-lang-en>Discography</h1><h1 data-lang-es>Discografía</h1>
   <p data-lang-en>Albums as a leader and selected sideman appearances.</p>
   <p data-lang-es>Discos como líder y participaciones seleccionadas como sideman.</p>
 </header>
-
+ 
 <section class="disco">
   {{ $leader := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
   {{ $sideman := where (where .Site.RegularPages "Section" "discography") ".Params.role" "sideman" }}
-
+ 
   <!-- AS LEADER -->
   <div class="disco-hd">
     <span class="disco-t"><span data-lang-en>As Leader</span><span data-lang-es>Como Líder</span></span>
     <span class="disco-c">{{ len $leader }}</span>
   </div>
-
+ 
   <div class="disco-leader">
     {{ range sort $leader ".Params.year" "desc" }}
     <div class="alb-card reveal">
       <div class="alb-cover">
-        {{ with .Params.cover }}<img src="{{ . }}" alt="{{ $.Title }}" />{{ end }}
+        {{ with .Params.cover }}<img src="{{ . | relURL }}" alt="{{ $.Title }}" />{{ end }}
         <div class="alb-ov">
           {{ with .Params.bandcamp_url }}<a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a>{{ end }}
           {{ with .Params.spotify_url }}<a href="{{ . }}" target="_blank" rel="noopener">Spotify</a>{{ end }}
+          {{ with .Params.youtube_url }}<a href="{{ . }}" target="_blank" rel="noopener">YouTube Music</a>{{ end }}
         </div>
       </div>
       <div class="alb-det">
         <h4>{{ .Title }}</h4>
         <p class="alb-meta">{{ .Params.year }} · {{ .Params.label }}</p>
-        <p class="alb-pers">{{ .Params.personnel }}</p>
+        <p class="alb-pers" data-lang-en>{{ .Params.personnel }}</p>
+        {{ with .Params.personnel_es }}<p class="alb-pers" data-lang-es>{{ . }}</p>{{ else }}<p class="alb-pers" data-lang-es>{{ $.Params.personnel }}</p>{{ end }}
+        {{ with .Params.summary }}<p data-lang-en style="font-size:.8rem;color:var(--t2);margin-top:.5rem">{{ . }}</p>{{ end }}
+        {{ with .Params.summary_es }}<p data-lang-es style="font-size:.8rem;color:var(--t2);margin-top:.5rem">{{ . }}</p>{{ end }}
       </div>
     </div>
     {{ end }}
   </div>
-
+ 
   <!-- AS SIDEMAN -->
   <div class="disco-hd">
     <span class="disco-t"><span data-lang-en>As Sideman</span><span data-lang-es>Como Sideman</span></span>
   </div>
-
+ 
   <div class="disco-sideman" id="sidemanGrid">
     {{ range sort $sideman ".Params.year" "desc" }}
     <div class="sm-item reveal"
-      {{ with .Params.cover }}data-cover="{{ . }}"{{ end }}
+      {{ with .Params.cover }}data-cover="{{ . | relURL }}"{{ end }}
       {{ with .Params.spotify_url }}data-spotify="{{ . }}"{{ end }}>
       <div class="sm-cover"><div class="sm-ph">Cover</div></div>
       <div class="sm-info">
@@ -55,17 +59,16 @@
     {{ end }}
   </div>
 </section>
-
+ 
 {{ end }}
-
+ 
 {{ define "scripts" }}
 <script>
-// Hybrid cover system: data-cover (local) → data-spotify (oEmbed) → placeholder
 document.querySelectorAll('.sm-item').forEach(async (item) => {
   const coverEl = item.querySelector('.sm-cover');
   const localCover = item.getAttribute('data-cover');
   const spotifyUrl = item.getAttribute('data-spotify');
-
+ 
   if (localCover) {
     coverEl.innerHTML = '<img src="' + localCover + '" alt="Cover" loading="lazy" />';
   } else if (spotifyUrl) {
