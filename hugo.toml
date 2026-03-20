@@ -1,7 +1,6 @@
 baseURL = "https://yourdomain.com/"
 languageCode = "en"
 title = "Marcus Vaine"
-theme = ""
 
 # Disable Hugo's default taxonomies (we don't need tags/categories)
 disableKinds = ["taxonomy", "term"]
