@@ -6,7 +6,6 @@
 </header>
 
 <section class="shows">
-  {{/* Split into upcoming and past based on date */}}
   {{ $now := now }}
   {{ $shows := where .Site.RegularPages "Section" "shows" }}
   {{ $upcoming := where $shows ".Date" ">=" $now }}

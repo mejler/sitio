@@ -15,7 +15,7 @@
   <div class="photo-grid">
     {{ range .Params.photos }}
     <div class="photo-item reveal">
-      <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" />
+      <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" />
       <div class="photo-ov"><span>{{ .caption }}</span></div>
     </div>
     {{ end }}
@@ -53,7 +53,6 @@
 
 {{ define "scripts" }}
 <script>
-  // Tabs
   document.querySelectorAll('.gal-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.gal-tab').forEach(t => t.classList.remove('active'));
@@ -64,7 +63,6 @@
       document.querySelectorAll('#' + t + ' .reveal:not(.visible)').forEach(el => revealObs.observe(el));
     });
   });
-  // Lightbox
   const lb = document.getElementById('lightbox'), lbi = document.getElementById('lightboxImg');
   const phs = document.querySelectorAll('.photo-item img');
   let ci = 0;

@@ -1,21 +1,21 @@
 {{ define "main" }}
- 
+
 <header class="page-hd">
   <h1 data-lang-en>Discography</h1><h1 data-lang-es>Discografía</h1>
   <p data-lang-en>Albums as a leader and selected sideman appearances.</p>
   <p data-lang-es>Discos como líder y participaciones seleccionadas como sideman.</p>
 </header>
- 
+
 <section class="disco">
   {{ $leader := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
   {{ $sideman := where (where .Site.RegularPages "Section" "discography") ".Params.role" "sideman" }}
- 
+
   <!-- AS LEADER -->
   <div class="disco-hd">
     <span class="disco-t"><span data-lang-en>As Leader</span><span data-lang-es>Como Líder</span></span>
     <span class="disco-c">{{ len $leader }}</span>
   </div>
- 
+
   <div class="disco-leader">
     {{ range sort $leader ".Params.year" "desc" }}
     <div class="alb-card reveal">
@@ -38,12 +38,12 @@
     </div>
     {{ end }}
   </div>
- 
+
   <!-- AS SIDEMAN -->
   <div class="disco-hd">
     <span class="disco-t"><span data-lang-en>As Sideman</span><span data-lang-es>Como Sideman</span></span>
   </div>
- 
+
   <div class="disco-sideman" id="sidemanGrid">
     {{ range sort $sideman ".Params.year" "desc" }}
     <div class="sm-item reveal"
@@ -59,16 +59,16 @@
     {{ end }}
   </div>
 </section>
- 
+
 {{ end }}
- 
+
 {{ define "scripts" }}
 <script>
 document.querySelectorAll('.sm-item').forEach(async (item) => {
   const coverEl = item.querySelector('.sm-cover');
   const localCover = item.getAttribute('data-cover');
   const spotifyUrl = item.getAttribute('data-spotify');
- 
+
   if (localCover) {
     coverEl.innerHTML = '<img src="' + localCover + '" alt="Cover" loading="lazy" />';
   } else if (spotifyUrl) {

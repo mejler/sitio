@@ -21,7 +21,7 @@
     {{ range first 5 (sort $news "Date" "desc") }}
     {{ if .Params.featured }}
     <article class="ni feat reveal">
-     {{ with .Params.image }}<div class="ni-img"><img src="{{ . | relURL }}" alt="" /></div>{{ end }}
+      {{ with .Params.image }}<div class="ni-img"><img src="{{ . | relURL }}" alt="" /></div>{{ end }}
       <div>
         <span class="ni-date">{{ .Date.Format "January 2, 2006" }}</span>
         <h3 data-lang-en>{{ .Title }}</h3>
@@ -49,10 +49,10 @@
   <div class="music-in">
     <div class="section-hd">
       <span class="section-t"><span data-lang-en>Now Playing</span><span data-lang-es>Escuchá</span></span>
-      <a href="/listen/" class="section-l"><span data-lang-en>All Releases →</span><span data-lang-es>Discografía completa →</span></a>
+      <a href="{{ "listen/" | relURL }}" class="section-l"><span data-lang-en>All Releases →</span><span data-lang-es>Discografía completa →</span></a>
     </div>
-    {{/* Featured album — uses the first "leader" album from discography */}}
-    {{ $featured := index (where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader") 0 }}
+    {{ $leaders := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
+    {{ $featured := index (sort $leaders ".Params.year" "desc") 0 }}
     {{ with $featured }}
     <div class="mf reveal">
       <div class="mf-slot">
@@ -68,7 +68,7 @@
         <p class="yr"><span data-lang-en>New Release — {{ .Params.year }}</span><span data-lang-es>Nuevo lanzamiento — {{ .Params.year }}</span></p>
         <p data-lang-en>{{ .Params.summary }}</p>
         {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
-        <a href="/listen/" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
+        <a href="{{ "listen/" | relURL }}" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
       </div>
     </div>
     {{ end }}
