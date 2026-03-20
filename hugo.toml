@@ -1,6 +1,6 @@
 baseURL = "https://mejler.github.io/sitio/"
 languageCode = "en"
-title = "Marcus Vaine"
+title = "Julián Mekler"
 
 disableKinds = ["taxonomy", "term"]
 
@@ -8,21 +8,21 @@ disableKinds = ["taxonomy", "term"]
   news = "/news/:slug/"
 
 [params]
-  description = "Guitarist · Composer · Improviser"
-  description_es = "Guitarrista · Compositor · Improvisador"
-  tagline = "Exploring the edges of modern jazz — between texture, melody, and the unknown."
-  tagline_es = "Explorando los bordes del jazz moderno — entre textura, melodía y lo desconocido."
+  description = "Bassist · Composer · Improviser"
+  description_es = "Bajista · Compositor · Improvisador"
+  tagline = 
+  tagline_es = 
   email_booking = "booking@marcusvaine.com"
-  email_press = "press@marcusvaine.com"
-  email_general = "hello@marcusvaine.com"
+  email_press = "prensa@julianmekler.com"
+  email_general = "contacto@julianmekler.com"
   formspree_id = "YOUR_FORM_ID"
   hero_image = "/images/hero.jpg"
 
   [params.social]
-    instagram = "https://instagram.com/marcusvaine"
-    bandcamp = "https://marcusvaine.bandcamp.com"
-    spotify = "https://open.spotify.com/artist/XXXX"
-    youtube = "https://youtube.com/@marcusvaine"
+    instagram = "https://instagram.com/julianmekler"
+    bandcamp = "https://julianmekler.bandcamp.com"
+    spotify = "https://open.spotify.com/artist/7cagmNqIaXDlz3gYsmIqV6"
+    youtube = "https://youtube.com/@julianmekler"
 
 [[menus.main]]
   name = "Shows"
