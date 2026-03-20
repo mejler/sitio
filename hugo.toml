@@ -8,8 +8,8 @@ disableKinds = ["taxonomy", "term"]
   news = "/news/:slug/"
 
 [params]
-  description = "Bassist · Composer · Improviser"
-  description_es = "Bajista · Compositor · Improvisador"
+  description = "Composer · Improviser · Educator"
+  description_es = "Compositor · Improvisador · Docente"
   tagline = ""
   tagline_es = ""
   email_booking = "booking@marcusvaine.com"
