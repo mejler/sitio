@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <section class="hero">
-  <div class="hero-img"><img src="{{ .Site.Params.hero_image }}" alt="{{ .Site.Title }}" /></div>
+  <div class="hero-img"><img src="{{ .Site.Params.hero_image | relURL }}" alt="{{ .Site.Title }}" /></div>
   <div class="hero-grad"></div>
   <div class="hero-c">
     <p class="hero-label"><span data-lang-en>{{ .Site.Params.description }}</span><span data-lang-es>{{ .Site.Params.description_es }}</span></p>
