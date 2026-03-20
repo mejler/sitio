@@ -4,7 +4,7 @@ role: "leader"
 year: 2025
 format: "quinteto"
 label: "Isla Desierta Discos"
-cover: "/images/covers/panorama.jpg"
+cover: "images/covers/panorama.jpg"
 personnel: "Baptiste Stanek (tenor saxophone), Juan Saidón (guitar), Wes Georgiev (piano), Julián Mekler (doublebass), Martín Freiberg (drums)"
 personnel_es: "Baptiste Stanek (saxo tenor), Juan Saidón (guitarra), Wes Georgiev (piano), Julián Mekler (contrabajo), Martín Freiberg (batería)"
 summary: "An ad-hoc project co-lead with Juan Saidón and Baptiste Stanek, recorded in Buenos Aires in 2025"
