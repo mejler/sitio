@@ -1,9 +1,9 @@
 ---
-title: 'New Album "Peripheral Vision" Out Now'
-title_es: 'Nuevo Álbum "Peripheral Vision" Ya Disponible'
-date: 2026-03-15
-summary: "The long-awaited third studio record is finally here. Eight original compositions recorded live at Sear Sound, New York."
-summary_es: "El esperado tercer álbum de estudio finalmente salió. Ocho composiciones originales grabadas en vivo en Sear Sound, Nueva York."
+title: 'New Album "PANORAMA" Out Now'
+title_es: 'Nuevo Álbum "PANORAMA" Ya Disponible'
+date: 2025-12-12
+summary: "A new collaborative project with Juan Saidón and Baptiste Stanek. Six original compositions, two from each of us recorded live at Estudio Mono Azul, Buenos Aires."
+summary_es: "Un nuevo proyecto colaborativo con Juan Saidón y Baptiste Stanek. Seis composiciones originales -dos de cada uno de nosotros- grabado en Estudio Mono Azul, en Buenos Aires"
 featured: true
-image: "/images/album-peripheral-vision.jpg"
+image: "images/album-panorama.jpg"
 ---
