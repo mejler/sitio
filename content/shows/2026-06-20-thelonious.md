@@ -1,7 +1,7 @@
 ---
-title: "Thelonious Club"
-date: 2026-06-20
-venue: "Thelonious Club"
-city: "Buenos Aires, AR"
-maps_url: "https://maps.google.com/?q=Thelonious+Club+Buenos+Aires"
+title: "Presentación de PANORAMA en Prez"
+date: 2025-12-19
+venue: "Prez Jazz Club"
+city: "Recoleta, Buenos Aires, AR"
+maps_url: "https://share.google/9zT0Ula4r2K6nCFkk"
 ---
