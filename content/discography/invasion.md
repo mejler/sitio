@@ -4,7 +4,7 @@ role: "leader"
 year: 2019
 format: "sexteto"
 label: "Isla Desierta Discos"
-cover: "/images/covers/invasion.jpg"
+cover: "images/covers/invasion.jpg"
 personnel: "Sebastián Sáenz (trumpet), Camila Nebbia (tenor saxophone), Pablo Cavalchini (guitar), Pía Hernández (piano), Julián Mekler (doublebass), Federico Isasti (drums)"
 personnel_es: "Sebastián Sáenz (trompeta), Camila Nebbia (saxo tenor), Pablo Cavalchini (guitarra), Pía Hernández (piano), Julián Mekler (contrabajo), Federico Isasti (batería)"
 summary: "The debut record. Blending post-bop language with textural exploration and lyrical melody."
