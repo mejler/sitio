@@ -1,6 +1,7 @@
 baseURL = "https://mejler.github.io/sitio/"
 languageCode = "en"
 title = "Julian Mekler"
+buildFuture = true
 
 disableKinds = ["taxonomy", "term"]
 
