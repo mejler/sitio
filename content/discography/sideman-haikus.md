@@ -2,7 +2,7 @@
 title: "haikus"
 role: "sideman"
 year: 2021
-artist: "escribi:"
+artist: "escribir:"
 label: "Isla Desierta Discos"
 spotify_url: "https://open.spotify.com/album/0s0VcLv2x57z0YBDuiqfgT"
 bandcamp_url: "https://escribir.bandcamp.com/album/haikus"
