@@ -16,7 +16,7 @@ disableKinds = ["taxonomy", "term"]
   email_press = "prensa@julianmekler.com"
   email_general = "contacto@julianmekler.com"
   formspree_id = "YOUR_FORM_ID"
-  hero_image = "/images/hero.jpg"
+  hero_image = "images/hero.jpg"
 
   [params.social]
     instagram = "https://instagram.com/julianmekler"
