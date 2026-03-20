@@ -13,5 +13,5 @@ bandcamp_url: "https://marcusvaine.bandcamp.com/album/peripheral-vision](https:/
 spotify_url: "https://open.spotify.com/album/XXXX](https://open.spotify.com/album/0qryVPsSNDvuzBkyK9aqAl"
 youtube_url: "https://music.youtube.com/playlist?list=OLAK5uy_nRz2lqWTr2CpvgEQ-u5Kkc7hgjIEGQOOk&si=kwUaTdbNHGX6_VQp"
 apple_url: "https://music.apple.com/il/album/panorama-feat-wes-georgiev-martin-freiberg/1855995231"
-bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1008483060/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://julianmekler.bandcamp.com/album/vida-til">Vida útil by Julián Mekler Sexteto</a></iframe>'
+bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1588820428/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://isladesierta.bandcamp.com/album/panorama">Panorama by Julián Mekler, Juan Saidón, Baptiste Stanek</a></iframe>'
 ---
