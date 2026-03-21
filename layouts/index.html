@@ -11,6 +11,9 @@
   <div class="hero-scroll"><span>Scroll</span><div class="hero-scroll-line"></div></div>
 </section>
 
+{{ $news := where .Site.RegularPages "Section" "news" }}
+{{ if $news }}
+
 <section class="section news">
   <div class="section-hd">
     <span class="section-t"><span data-lang-en>Latest News</span><span data-lang-es>Novedades</span></span>
@@ -43,6 +46,8 @@
     {{ end }}
   </div>
 </section>
+
+{{ end }}
 
 <section class="section music">
   <div class="music-in">
