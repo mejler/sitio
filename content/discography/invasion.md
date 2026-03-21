@@ -2,7 +2,7 @@
 title: "Invasión!"
 role: "leader"
 year: 2019
-format: "sexteto"
+format: "Julián Mekler Sexteto"
 label: "Isla Desierta Discos"
 cover: "images/covers/invasion.jpg"
 personnel: "Sebastián Sáenz (trumpet), Camila Nebbia (tenor saxophone), Pablo Cavalchini (guitar), Pía Hernández (piano), Julián Mekler (doublebass), Federico Isasti (drums)"
