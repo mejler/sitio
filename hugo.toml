@@ -9,8 +9,8 @@ disableKinds = ["taxonomy", "term"]
   news = "/news/:slug/"
 
 [params]
-  description = "Composer · Improviser · Educator"
-  description_es = "Compositor · Improvisador · Docente"
+  description = "Bassist · Composer · Educator"
+  description_es = "Bajista · Compositor · Docente"
   tagline = ""
   tagline_es = ""
   email_booking = ""
