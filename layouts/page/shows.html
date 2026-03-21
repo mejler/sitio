@@ -19,7 +19,7 @@
         {{ if .Params.maps_url }}<a href="{{ .Params.maps_url }}" target="_blank" rel="noopener">{{ .Params.venue }}</a>
         {{ else }}{{ .Params.venue }}{{ end }}
       </span>
-      <span class="show-vl">{{ .Params.city }}</span>
+      <span class="show-vl">{{ .Params.city }}{{ with .Params.time }} · {{ . }}{{ end }}</span>
     </div>
     {{ if .Params.ticket_url }}
     <a href="{{ .Params.ticket_url }}" class="show-tk" target="_blank" rel="noopener">
@@ -40,7 +40,7 @@
     <span class="show-date">{{ .Date.Format "Jan 2, 2006" }}</span>
     <div class="show-venue">
       <span class="show-vn">{{ .Params.venue }}</span>
-      <span class="show-vl">{{ .Params.city }}</span>
+      <span class="show-vl">{{ .Params.city }}{{ with .Params.time }} · {{ . }}{{ end }}</span>
     </div>
     <span></span>
   </div>
