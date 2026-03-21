@@ -2,7 +2,7 @@
 title: "PANORAMA"
 role: "leader"
 year: 2025
-format: "quinteto"
+format: "Mekler Saidón Stanek"
 label: "Isla Desierta Discos"
 cover: "images/covers/panorama.jpg"
 personnel: "Baptiste Stanek (tenor saxophone), Juan Saidón (guitar), Wes Georgiev (piano), Julián Mekler (doublebass), Martín Freiberg (drums)"
