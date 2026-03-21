@@ -13,5 +13,5 @@ bandcamp_url: "https://julianmekler.bandcamp.com/album/vida-til"
 spotify_url: "https://open.spotify.com/album/6IBamNnjZOOXTuibIwCsFi"
 youtube_url: "https://music.youtube.com/playlist?list=OLAK5uy_nlosn_fsurPQlS33yLSjFCdXL4KPvvIaE&si=jJ4gxE1G70dtij7a"
 apple_url: "https://music.apple.com/es/album/vida-%C3%BAtil-feat-jeanette-nenezian-lucas-goicoechea-pablo/1674260659"
-bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 720px;" src="https://bandcamp.com/EmbeddedPlayer/album=1008483060/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://julianmekler.bandcamp.com/album/vida-til">Vida útil by Julián Mekler Sexteto</a></iframe>'
+bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1008483060/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://julianmekler.bandcamp.com/album/vida-til">Vida útil by Julián Mekler Sexteto</a></iframe>'
 ---
