@@ -6,7 +6,7 @@
   <div class="hero-c">
     <p class="hero-label"><span data-lang-en>{{ .Site.Params.description }}</span><span data-lang-es>{{ .Site.Params.description_es }}</span></p>
     <h1 class="hero-name">{{ .Site.Title }}</h1>
-    <p class="hero-tag"><span data-lang-en>{{ .Site.Params.tagline }}</span><span data-lang-es>{{ .Site.Params.tagline_es }}</span></p>
+    {{ if .Site.Params.tagline }}<p class="hero-tag"><span data-lang-en>{{ .Site.Params.tagline }}</span><span data-lang-es>{{ .Site.Params.tagline_es }}</span></p>{{ end }}
   </div>
   <div class="hero-scroll"><span>Scroll</span><div class="hero-scroll-line"></div></div>
 </section>
