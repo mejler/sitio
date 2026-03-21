@@ -5,14 +5,24 @@
     <h1 data-lang-en>Get In Touch</h1><h1 data-lang-es>Contacto</h1>
     <p data-lang-en>For booking inquiries, press requests, or collaboration ideas — reach out through the form or the contacts below.</p>
     <p data-lang-es>Para consultas de booking, prensa o colaboraciones — escribí a través del formulario o los contactos de abajo.</p>
-    <div class="cd"><p class="cd-label">Management / Booking</p><a href="mailto:{{ .Site.Params.email_booking }}">{{ .Site.Params.email_booking }}</a></div>
-    <div class="cd"><p class="cd-label"><span data-lang-en>Press</span><span data-lang-es>Prensa</span></p><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></div>
     <div class="cd"><p class="cd-label">General</p><a href="mailto:{{ .Site.Params.email_general }}">{{ .Site.Params.email_general }}</a></div>
+    <div class="cd"><p class="cd-label"><span data-lang-en>Press</span><span data-lang-es>Prensa</span></p><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></div>
     <ul class="c-socials">
       {{ with .Site.Params.social.instagram }}<li><a href="{{ . }}" target="_blank" rel="noopener">Instagram</a></li>{{ end }}
       {{ with .Site.Params.social.bandcamp }}<li><a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a></li>{{ end }}
       {{ with .Site.Params.social.youtube }}<li><a href="{{ . }}" target="_blank" rel="noopener">YouTube</a></li>{{ end }}
     </ul>
+  </div>
+  <div class="newsletter">
+  <p class="cd-label">Newsletter</p>
+  <p data-lang-en style="font-size:.85rem;color:var(--t2);margin-bottom:1rem;font-weight:300">Stay updated on new releases and shows.</p>
+  <p data-lang-es style="font-size:.85rem;color:var(--t2);margin-bottom:1rem;font-weight:300">Mantenete al día con nuevos lanzamientos y shows.</p>
+  <form action="https://YOUR_MAILCHIMP_URL" method="post" target="_blank">
+    <div style="display:flex;gap:.5rem">
+      <input type="email" name="EMAIL" placeholder="your@email.com" required style="flex:1;background:transparent;border:1px solid var(--brd);color:var(--t1);font-family:var(--body);font-size:.85rem;padding:.6rem 1rem;outline:none;transition:border-color .3s var(--ease)" onfocus="this.style.borderColor='var(--ac)'" onblur="this.style.borderColor='var(--brd)'" />
+      <button type="submit" style="background:transparent;border:1px solid var(--t3);color:var(--t1);font-family:var(--body);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;padding:.6rem 1.5rem;cursor:pointer;transition:all .3s;white-space:nowrap" onmouseover="this.style.borderColor='var(--ac)';this.style.color='var(--ac)'" onmouseout="this.style.borderColor='var(--t3)';this.style.color='var(--t1)'"><span data-lang-en>Subscribe</span><span data-lang-es>Suscribirse</span></button>
+    </div>
+  </form>
   </div>
   <div>
     <form class="c-form" action="https://formspree.io/f/{{ .Site.Params.formspree_id }}" method="POST">
