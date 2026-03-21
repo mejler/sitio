@@ -2,7 +2,7 @@
 title: "Vida útil"
 role: "leader"
 year: 2023
-format: "sexteto"
+format: "Julián Mekler Sexteto"
 label: "Isla Desierta Discos"
 cover: "images/covers/vida-util.jpg"
 personnel: "Jeanette Nenezian (trumpet), Lucas Goicoechea (tenor saxophone), Pablo Cavalchini (guitar), Pía Hernández (piano), Julián Mekler (doublebass), Federico Isasti (drums)"
