@@ -274,7 +274,7 @@ footer{border-top:1px solid var(--brd);padding:3rem;display:flex;align-items:cen
   .page-hd{padding:8rem 1.5rem 3rem}.section{padding:4rem 1.5rem}
   .section-hd{flex-direction:column;gap:.75rem}
   .hero-c{padding:0 1.5rem 4rem}.hero-name{white-space:nowrap;font-size:clamp(2.2rem,12vw,4rem)}.hero-scroll{display:none}
-  .news-grid{grid-template-columns:1fr}.ni.feat{grid-template-columns:1fr}
+  .ni.feat{grid-template-columns:1fr}.ni:hover{margin:0;padding-left:0;padding-right:0}
   .shows{padding:0 1.5rem 4rem}.show-row{grid-template-columns:1fr;gap:.5rem;padding:1.25rem 0}.show-row:hover{margin:0;padding-left:0;padding-right:0}.show-tk{justify-self:start}
   .listen{padding:0 1.5rem 4rem}
   .disco{padding:0 1.5rem 4rem}.disco-leader{grid-template-columns:1fr}.disco-sideman{grid-template-columns:1fr}
