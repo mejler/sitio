@@ -13,5 +13,5 @@ bandcamp_url: "https://julianmekler.bandcamp.com/album/invasi-n-2"
 spotify_url: "https://open.spotify.com/album/4OJzut6xzaOkf326jTtYPI"
 youtube_url: "https://music.youtube.com/playlist?list=OLAK5uy_lwXHwwisb9n0pLhTu9GGd6THSno7e12zc&si=fEJMIQGWMm4FNMTQ"
 apple_url: "https://music.apple.com/us/album/invasi%C3%B3n-feat-camila-nebbia-sebastian-saenz-pablo-cavalchini/1624591695"
-bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 687px;" src="https://bandcamp.com/EmbeddedPlayer/album=1026411143/size=large/bgcol=333333/linkcol=ffffff/transparent=true/" seamless><a href="https://julianmekler.bandcamp.com/album/invasi-n-2">Invasión! by Julián Mekler</a></iframe>'
+bandcamp_embed: '<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1026411143/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/transparent=true/" seamless><a href="https://julianmekler.bandcamp.com/album/invasi-n-2">Invasión! by Julián Mekler</a></iframe>'
 ---
