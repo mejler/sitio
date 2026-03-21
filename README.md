@@ -1,4 +1,4 @@
-# Marcus Vaine — Personal Website
+# Personal Website
 
 A static website for a jazz musician, built with [Hugo](https://gohugo.io/) and hosted on [GitHub Pages](https://pages.github.com/). Bilingual (EN/ES), fully responsive, zero cost.
 
