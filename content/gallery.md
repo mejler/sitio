@@ -25,13 +25,16 @@ photos:
     caption: "The Jazz Gallery — 2026"
 
 videos:
-  - title: "Live at Blue Note — Full Set"
-    date: "December 2025"
-    youtube_id: ""
-  - title: '"Peripheral Vision" — Official Video'
-    date: "March 2026"
-    youtube_id: ""
-  - title: "Studio Session — Behind the Scenes"
-    date: "January 2026"
-    youtube_id: ""
+  - title: "Isla Desierta Presenta: Julián Mekler Sexteto"
+    date: "September 2023"
+    youtube_id: "907AEnK5uUs"
+  - title: 'Juguetes Rotos - Julián Mekler Sexteto @Bebop Club'
+    date: "February 2019"
+    youtube_id: "ere9Ca5XzZc"
+  - title: "Mark Herr + Albert Cirera + Julián Mekler"
+    date: "November 2019"
+    youtube_id: "U6NJSsFqXGI"
+  - title: "Cuatro Puentes - Plachta y la Cocina Magnética"
+    date: "April 2018"
+    youtube_id: "sqGUhStT61Q"
 ---
