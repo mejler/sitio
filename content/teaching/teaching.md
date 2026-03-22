@@ -49,7 +49,7 @@ education:
     title: "Diploma in Jazz (Bass)"
     title_es: "Técnico Superior en Jazz (Contrabajo)"
     institution: "Manuel de Falla Conservatory"
-    intitution_es: "Conservatorio Superior de Música Manuel de Falla"
+    institution_es: "Conservatorio Superior de Música Manuel de Falla"
     detail: "Description of studies."
     detail_es: "Descripción de los estudios."
 
