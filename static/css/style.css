@@ -68,7 +68,7 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
 @keyframes fu{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
 
 /* ========== NEWS ========== */
-.news{max-width:800px;margin:0 auto}
+.news{max-width:1200px;margin:0 auto}
 .news .section-hd{margin-bottom:2rem}
 .news-grid{display:flex;flex-direction:column;gap:0}
 .ni{background:var(--bg);padding:2rem 1rem;transition:background .4s var(--ease);cursor:pointer;position:relative;border-bottom:1px solid var(--brd)}
