@@ -1,0 +1,58 @@
+---
+title: "Teaching"
+layout: "teaching"
+type: "page"
+url: "/teaching/"
+
+intro: "I've been teaching music for several years, working with students privately and in educational settings. Whether you're a beginner exploring improvisation or an advanced player looking to refine your voice, I tailor each lesson to where you are and where you want to go."
+intro_es: "Hace varios años que enseño música, trabajando con alumnos de manera particular y en instituciones. Ya sea que estés empezando a explorar la improvisación o que seas un músico avanzado buscando refinar tu voz, adapto cada clase a donde estás y hacia donde querés ir."
+
+offerings:
+  - title: "Doublebass / Contrabajo"
+    description: "Technique, sound production, repertoire, and instrument-specific guidance for acoustic and electric bass."
+    description_es: "Técnica, producción de sonido, repertorio y orientación específica para contrabajo y bajo eléctrico."
+  - title: "Improvisation / Improvisación"
+    description: "Ear training, harmonic awareness, rhythmic concepts, developing a personal vocabulary, and learning to listen."
+    description_es: "Entrenamiento auditivo, conciencia armónica, conceptos rítmicos, desarrollo de un vocabulario personal y aprender a escuchar."
+  - title: "Composition & Arranging / Composición y Arreglos"
+    description: "Writing original music, arranging for small and large ensembles, form, texture, and the relationship between composition and improvisation."
+    description_es: "Escritura de música original, arreglos para ensambles pequeños y grandes, forma, textura y la relación entre composición e improvisación."
+  - title: "Music Production / Producción Musical"
+    description: "Recording, mixing, and producing your own music. Home studio setup and workflow."
+    description_es: "Grabación, mezcla y producción de tu propia música. Armado y flujo de trabajo en home studio."
+
+formats:
+  - title: "Online"
+    description: "Via Zoom or Google Meet. Flexible scheduling, open to students worldwide."
+    description_es: "Por Zoom o Google Meet. Horarios flexibles, abierto a alumnos de todo el mundo."
+  - title: "In Person / Presencial"
+    description: "Available in Buenos Aires. Contact for details and availability."
+    description_es: "Disponible en Buenos Aires. Consultá por disponibilidad."
+  - title: "Workshops / Talleres"
+    description: "Available for institutions, festivals, and ensembles."
+    description_es: "Disponible para instituciones, festivales y ensambles."
+
+education:
+  - year: "2020"
+    title: "Degree Title"
+    institution: "University Name"
+    detail: "Description of studies."
+    detail_es: "Descripción de los estudios."
+  - year: "2016"
+    title: "Degree Title"
+    institution: "University Name"
+    detail: "Description of studies."
+    detail_es: "Descripción de los estudios."
+
+experience:
+  - years: "2022 –"
+    role: "Private Instructor / Docente Particular"
+    institution: "Independent / Independiente"
+    detail: "Doublebass, improvisation, composition, and music production."
+    detail_es: "Contrabajo, improvisación, composición y producción musical."
+  - years: "2020 – 2022"
+    role: "Teaching Assistant / Ayudante de Cátedra"
+    institution: "University Name"
+    detail: "Small groups, jazz improvisation, ear training."
+    detail_es: "Grupos pequeños, improvisación jazz, entrenamiento auditivo."
+---
