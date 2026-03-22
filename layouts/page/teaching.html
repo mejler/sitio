@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+<header class="page-hd">
+  <h1 data-lang-en>Teaching</h1><h1 data-lang-es>Clases</h1>
+  <p data-lang-en>Private lessons, workshops, and masterclasses.</p>
+  <p data-lang-es>Clases particulares, talleres y masterclasses.</p>
+</header>
+
+<section class="teaching">
+
+  <!-- INTRO -->
+  {{ with .Params.intro }}
+  <div class="teach-intro reveal">
+    <p data-lang-en>{{ . }}</p>
+  </div>
+  {{ end }}
+  {{ with .Params.intro_es }}
+  <div class="teach-intro reveal">
+    <p data-lang-es>{{ . }}</p>
+  </div>
+  {{ end }}
+
+  <!-- WHAT I OFFER -->
+  {{ if .Params.offerings }}
+  <div class="teach-section reveal">
+    <h2 class="teach-heading"><span data-lang-en>What I Offer</span><span data-lang-es>Qué Ofrezco</span></h2>
+    <div class="teach-grid">
+      {{ range .Params.offerings }}
+      <div class="teach-card">
+        <h3>{{ .title }}</h3>
+        <p data-lang-en>{{ .description }}</p>
+        {{ with .description_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- FORMAT -->
+  {{ if .Params.formats }}
+  <div class="teach-section reveal">
+    <h2 class="teach-heading"><span data-lang-en>Lesson Format</span><span data-lang-es>Formato de Clases</span></h2>
+    <div class="teach-formats">
+      {{ range .Params.formats }}
+      <div class="teach-format">
+        <h4>{{ .title }}</h4>
+        <p data-lang-en>{{ .description }}</p>
+        {{ with .description_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- EDUCATION -->
+  {{ if .Params.education }}
+  <div class="teach-section reveal">
+    <h2 class="teach-heading"><span data-lang-en>Education</span><span data-lang-es>Formación</span></h2>
+    <div class="teach-timeline">
+      {{ range .Params.education }}
+      <div class="teach-tl-item">
+        <span class="teach-tl-year">{{ .year }}</span>
+        <div>
+          <h4>{{ .title }}</h4>
+          <p class="teach-tl-place">{{ .institution }}</p>
+          {{ with .detail }}<p class="teach-tl-detail" data-lang-en>{{ . }}</p>{{ end }}
+          {{ with .detail_es }}<p class="teach-tl-detail" data-lang-es>{{ . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- TEACHING EXPERIENCE -->
+  {{ if .Params.experience }}
+  <div class="teach-section reveal">
+    <h2 class="teach-heading"><span data-lang-en>Teaching Experience</span><span data-lang-es>Experiencia Docente</span></h2>
+    <div class="teach-timeline">
+      {{ range .Params.experience }}
+      <div class="teach-tl-item">
+        <span class="teach-tl-year">{{ .years }}</span>
+        <div>
+          <h4>{{ .role }}</h4>
+          <p class="teach-tl-place">{{ .institution }}</p>
+          {{ with .detail }}<p class="teach-tl-detail" data-lang-en>{{ . }}</p>{{ end }}
+          {{ with .detail_es }}<p class="teach-tl-detail" data-lang-es>{{ . }}</p>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- CTA -->
+  <div class="teach-cta reveal">
+    <p data-lang-en>Interested in taking lessons? Get in touch.</p>
+    <p data-lang-es>¿Te interesa tomar clases? Escribime.</p>
+    <a href="{{ "contact/" | relURL }}" class="m-cta"><span data-lang-en>Contact →</span><span data-lang-es>Contacto →</span></a>
+  </div>
+
+</section>
+
+{{ end }}
