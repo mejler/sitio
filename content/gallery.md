@@ -11,6 +11,7 @@ photos:
   - src: "/images/gallery/photo-2.jpg"
     alt: "Studio session"
     caption: "Sear Sound Studio — 2026"
+    caption_es: "Con el Sexteto"
   - src: "/images/gallery/photo-3.jpg"
     alt: "Festival"
     caption: "Festival International de Jazz — 2024"
@@ -19,10 +20,11 @@ photos:
     caption: "Backstage — 2025"
   - src: "/images/gallery/photo-5.jpg"
     alt: "Recording"
-    caption: "Recording session — 2023"
+    caption: "CMF — 2017"
   - src: "/images/gallery/photo-6.jpg"
-    alt: "Live show"
-    caption: "The Jazz Gallery — 2026"
+    alt: "Cabado Mekler Freiberg — Casailda — 2017"
+    caption: "Cabado Mekler Freiberg — Casailda — 2017"
+    caption_es: "Cabado Mekler Freiberg — Casailda — 2017"
 
 videos:
   - title: "Isla Desierta Presenta: Julián Mekler Sexteto"
