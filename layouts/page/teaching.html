@@ -27,7 +27,7 @@
     <div class="teach-grid">
       {{ range .Params.offerings }}
       <div class="teach-card">
-        <h3>{{ .title }}</h3>
+        <h3><span data-lang-en>{{ .title }}</span>{{ with .title_es }}<span data-lang-es>{{ . }}</span>{{ end }}</h3>
         <p data-lang-en>{{ .description }}</p>
         {{ with .description_es }}<p data-lang-es>{{ . }}</p>{{ end }}
       </div>
@@ -43,7 +43,7 @@
     <div class="teach-formats">
       {{ range .Params.formats }}
       <div class="teach-format">
-        <h4>{{ .title }}</h4>
+        <h4><span data-lang-en>{{ .title }}</span>{{ with .title_es }}<span data-lang-es>{{ . }}</span>{{ end }}</h4>
         <p data-lang-en>{{ .description }}</p>
         {{ with .description_es }}<p data-lang-es>{{ . }}</p>{{ end }}
       </div>
@@ -81,8 +81,8 @@
       <div class="teach-tl-item">
         <span class="teach-tl-year">{{ .years }}</span>
         <div>
-          <h4>{{ .role }}</h4>
-          <p class="teach-tl-place">{{ .institution }}</p>
+          <h4><span data-lang-en>{{ .role }}</span>{{ with .role_es }}<span data-lang-es>{{ . }}</span>{{ end }}</h4>
+          <p class="teach-tl-place"><span data-lang-en>{{ .institution }}</span>{{ with .institution_es }}<span data-lang-es>{{ . }}</span>{{ end }}</p>
           {{ with .detail }}<p class="teach-tl-detail" data-lang-en>{{ . }}</p>{{ end }}
           {{ with .detail_es }}<p class="teach-tl-detail" data-lang-es>{{ . }}</p>{{ end }}
         </div>
