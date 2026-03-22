@@ -57,7 +57,7 @@ experience:
   - years: "2023 –"
     role: ""
     role_es: "Docente universitario"
-    institution: "UTEC (Uruguay)"
+    institution: "Technological University / UTEC (Uruguay)"
     institution_es: "Universidad Tecnológica (Uruguay)"
     detail: "Doublebass, improvisation, composition, and music production."
     detail_es: "Contrabajo, improvisación, composición y producción musical."
