@@ -26,15 +26,15 @@ photos:
 
 videos:
   - title: "Isla Desierta Presenta: Julián Mekler Sexteto"
-    date: "September 2023"
+    date: "09.2023"
     youtube_id: "907AEnK5uUs"
   - title: 'Juguetes Rotos - Julián Mekler Sexteto @Bebop Club'
-    date: "February 2019"
+    date: "02.2019"
     youtube_id: "ere9Ca5XzZc"
   - title: "Mark Herr + Albert Cirera + Julián Mekler"
-    date: "November 2019"
+    date: "11.2019"
     youtube_id: "U6NJSsFqXGI"
   - title: "Cuatro Puentes - Plachta y la Cocina Magnética"
-    date: "April 2018"
+    date: "04.2018"
     youtube_id: "sqGUhStT61Q"
 ---
