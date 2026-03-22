@@ -7,11 +7,11 @@
 </header>
 
 <div class="gal-tabs">
-  <button class="gal-tab active" data-tab="photos"><span data-lang-en>Photos</span><span data-lang-es>Fotos</span></button>
-  <button class="gal-tab" data-tab="videos">Videos</button>
+<button class="gal-tab" data-tab="photos"><span data-lang-en>Photos</span><span data-lang-es>Fotos</span></button>
+<button class="gal-tab active" data-tab="videos">Videos</button>
 </div>
 
-<section class="gal-section" id="photos">
+<section class="gal-section hidden" id="photos">
   <div class="photo-grid">
     {{ range .Params.photos }}
     <div class="photo-item reveal">
@@ -22,7 +22,7 @@
   </div>
 </section>
 
-<section class="gal-section hidden" id="videos">
+<section class="gal-section" id="videos">
   <div class="video-grid">
     {{ range .Params.videos }}
     <div class="vid-item reveal">
