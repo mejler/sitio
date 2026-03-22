@@ -8,19 +8,22 @@ intro: "I've been teaching music for several years, working with students privat
 intro_es: "Hace varios años que enseño música, trabajando con alumnos de manera particular y en instituciones. Ya sea que estés empezando a explorar la improvisación o que seas un músico avanzado buscando refinar tu voz, adapto cada clase a donde estás y hacia donde querés ir."
 
 offerings:
-  - title: "Doublebass / Contrabajo"
+  - title: "Doublebass"
+    title_es: "Contrabajo"
     description: "Technique, sound production, repertoire, and instrument-specific guidance for acoustic and electric bass."
     description_es: "Técnica, producción de sonido, repertorio y orientación específica para contrabajo y bajo eléctrico."
-  - title: "Improvisation / Improvisación"
+  - title: "Improvisation"
+    title_es: "Improvisación"
     description: "Ear training, harmonic awareness, rhythmic concepts, developing a personal vocabulary, and learning to listen."
     description_es: "Entrenamiento auditivo, conciencia armónica, conceptos rítmicos, desarrollo de un vocabulario personal y aprender a escuchar."
-  - title: "Composition & Arranging / Composición y Arreglos"
+  - title: "Composition & Arranging"
+    title_es: "Composición y Arreglos"
     description: "Writing original music, arranging for small and large ensembles, form, texture, and the relationship between composition and improvisation."
     description_es: "Escritura de música original, arreglos para ensambles pequeños y grandes, forma, textura y la relación entre composición e improvisación."
-  - title: "Music Production / Producción Musical"
+  - title: "Music Production"
+    title_es: "Producción Musical"
     description: "Recording, mixing, and producing your own music. Home studio setup and workflow."
     description_es: "Grabación, mezcla y producción de tu propia música. Armado y flujo de trabajo en home studio."
-
 formats:
   - title: "Online"
     description: "Via Zoom or Google Meet. Flexible scheduling, open to students worldwide."
