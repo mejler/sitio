@@ -1,13 +1,10 @@
 {{ define "main" }}
-
 <header class="page-hd">
   <h1 data-lang-en>Teaching</h1><h1 data-lang-es>Clases</h1>
   <p data-lang-en>Private lessons, workshops, and masterclasses.</p>
   <p data-lang-es>Clases particulares, talleres y masterclasses.</p>
 </header>
-
 <section class="teaching">
-
   <!-- INTRO -->
   {{ with .Params.intro }}
   <div class="teach-intro reveal">
@@ -19,7 +16,6 @@
     <p data-lang-es>{{ . }}</p>
   </div>
   {{ end }}
-
   <!-- WHAT I OFFER -->
   {{ if .Params.offerings }}
   <div class="teach-section reveal">
@@ -35,7 +31,6 @@
     </div>
   </div>
   {{ end }}
-
   <!-- FORMAT -->
   {{ if .Params.formats }}
   <div class="teach-section reveal">
@@ -51,7 +46,6 @@
     </div>
   </div>
   {{ end }}
-
   <!-- EDUCATION -->
   {{ if .Params.education }}
   <div class="teach-section reveal">
@@ -61,8 +55,8 @@
       <div class="teach-tl-item">
         <span class="teach-tl-year">{{ .year }}</span>
         <div>
-          <h4>{{ .title }}</h4>
-          <p class="teach-tl-place">{{ .institution }}</p>
+          <h4><span data-lang-en>{{ .title }}</span>{{ with .title_es }}<span data-lang-es>{{ . }}</span>{{ end }}</h4>
+          <p class="teach-tl-place"><span data-lang-en>{{ .institution }}</span>{{ with .institution_es }}<span data-lang-es>{{ . }}</span>{{ end }}</p>
           {{ with .detail }}<p class="teach-tl-detail" data-lang-en>{{ . }}</p>{{ end }}
           {{ with .detail_es }}<p class="teach-tl-detail" data-lang-es>{{ . }}</p>{{ end }}
         </div>
@@ -71,7 +65,6 @@
     </div>
   </div>
   {{ end }}
-
   <!-- TEACHING EXPERIENCE -->
   {{ if .Params.experience }}
   <div class="teach-section reveal">
@@ -91,14 +84,11 @@
     </div>
   </div>
   {{ end }}
-
   <!-- CTA -->
   <div class="teach-cta reveal">
     <p data-lang-en>Interested in taking lessons? Get in touch.</p>
     <p data-lang-es>¿Te interesa tomar clases? Escribime.</p>
     <a href="{{ "contact/" | relURL }}" class="m-cta"><span data-lang-en>Contact →</span><span data-lang-es>Contacto →</span></a>
   </div>
-
 </section>
-
 {{ end }}
