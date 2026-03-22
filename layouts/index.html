@@ -21,7 +21,7 @@
     <article class="ni feat reveal">
       {{ with .Params.image }}<div class="ni-img"><img src="{{ . | relURL }}" alt="" /></div>{{ end }}
       <div>
-        <span class="ni-date">{{ .Date.Format "January 2, 2006" }}</span>
+        <span class="ni-date">{{ .Date.Format "02.01.2006" }}</span>
         <h3 data-lang-en>{{ .Title }}</h3>
         {{ with .Params.title_es }}<h3 data-lang-es>{{ . }}</h3>{{ end }}
         <p data-lang-en>{{ .Params.summary | safeHTML }}</p>
@@ -30,7 +30,7 @@
     </article>
     {{ else }}
     <article class="ni reveal">
-      <span class="ni-date">{{ .Date.Format "January 2, 2006" }}</span>
+      <span class="ni-date">{{ .Date.Format "02.01.2006" }}</span>
       <h3 data-lang-en>{{ .Title }}</h3>
       {{ with .Params.title_es }}<h3 data-lang-es>{{ . }}</h3>{{ end }}
       <p data-lang-en>{{ .Params.summary | safeHTML }}</p>
