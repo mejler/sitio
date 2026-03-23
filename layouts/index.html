@@ -62,8 +62,8 @@
       <div class="mf-info">
         <h3>{{ .Title }}</h3>
         <p class="yr"><span data-lang-en>New Release — {{ .Params.year }}</span><span data-lang-es>Nuevo lanzamiento — {{ .Params.year }}</span></p>
-        <p data-lang-en>{{ .Params.summary }}</p>
-        {{ with .Params.summary_es }}<p data-lang-es>{{ . }}</p>{{ end }}
+        <p data-lang-en>{{ .Params.summary | safeHTML }}</p>
+        {{ with .Params.summary_es }}<p data-lang-es>{{ . | safeHTML }}</p>{{ end }}
         <a href="{{ "listen/" | relURL }}" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
       </div>
     </div>
