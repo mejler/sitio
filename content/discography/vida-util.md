@@ -7,8 +7,14 @@ label: "Isla Desierta Discos"
 cover: "images/covers/vida-util.jpg"
 personnel: "Jeanette Nenezian (trumpet), Lucas Goicoechea (tenor saxophone), Pablo Cavalchini (guitar), Pía Hernández (piano), Julián Mekler (doublebass), Federico Isasti (drums)"
 personnel_es: "Jeanette Nenezian (trompeta), Lucas Goicoechea (saxo tenor), Pablo Cavalchini (guitarra), Pía Hernández (piano), Julián Mekler (contrabajo), Federico Isasti (batería)"
-summary: "Vida Útil, second album as leader of this sextet focused on playing original compositions. Vida Útil is a collection of eight pieces in which this group's sound mixes with the language of singer-songwriters’. This album features the voices and the lyrics of Julia Sanjurjo, Juan Belvis, Natalia Spiner and Fer Fontenla as guest artists."
-summary_es: "Julián Mekler presenta Vida útil, su segundo trabajo al frente de este sexteto dedicado a la interpretación de música original. Vida útil es una colección de ocho piezas en las que la sonoridad de este grupo se entremezcla con la de la canción de autor. Este álbum cuenta con las voces y los textos de Julia Sanjurjo, Juan Belvis, Natalia Spiner y Fer Fontenla como artistas invitados."
+summary: ""
+summary_es: "Vida útil es el segundo disco que grabamos con el sexteto. Es una colección de ocho piezas originales en las que buscamos mezclar la sonoridad del grupo con la canción de autor. El repertorio está integrado por temas instrumentales y cantados que cuentan con la participación de <a href="https://www.instagram.com/fer.fontenla/">Fer Fontenla</a>, <a href="https://www.instagram.com/juan.belvis/">Juan Belvis</a>, <a href="https://www.instagram.com/julia.sanjurjo/">Julia Sanjurjo</a> y <a href="https://www.instagram.com/natspiner/">Natalia Spiner</a>, que pusieron voz y letra a cada uno de ellos.
+
+La música de Vida útil continúa en la línea de Invasión! (2019), . Vida útil también está publicado a través del sello de Isla Desierta Discos.
+
+Este álbum cuenta con las voces y los textos de Julia Sanjurjo, Juan Belvis, Natalia Spiner y Fer Fontenla como artistas invitados. El grupo se completa con Jeanette Nenezian en trompeta, Lucas Goicoechea en saxo tenor, Pablo Cavalchini en guitarra eléctrica, Pía Hernández en piano, Federico Isasti en batería y Julián Mekler en contrabajo.
+
+La realización de este proyecto fue posible, en parte, al apoyo del Fondo Nacional de las Artes y al Régimen de Mecenazgo Cultural de la CABA. "
 bandcamp_url: "https://julianmekler.bandcamp.com/album/vida-til"
 spotify_url: "https://open.spotify.com/album/6IBamNnjZOOXTuibIwCsFi"
 youtube_url: "https://music.youtube.com/playlist?list=OLAK5uy_nlosn_fsurPQlS33yLSjFCdXL4KPvvIaE&si=jJ4gxE1G70dtij7a"
