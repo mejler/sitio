@@ -7,7 +7,7 @@ url: "/gallery/"
 photos:
   - src: "static/images/gallery/cck-05-2016.jpg"
     alt: "Live performance"
-    caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)
+    caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)"
     caption_es: "Big Band del CSMMF - Sala Argentina del Centro Cultural Kirchner (2016)"
   - src: "static/images/gallery/cck-2016.jpg"
     alt: "Rehearsal at Residency"
