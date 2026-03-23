@@ -7,14 +7,9 @@ label: "Isla Desierta Discos"
 cover: "images/covers/vida-util.jpg"
 personnel: "Jeanette Nenezian (trumpet), Lucas Goicoechea (tenor saxophone), Pablo Cavalchini (guitar), Pía Hernández (piano), Julián Mekler (doublebass), Federico Isasti (drums)"
 personnel_es: "Jeanette Nenezian (trompeta), Lucas Goicoechea (saxo tenor), Pablo Cavalchini (guitarra), Pía Hernández (piano), Julián Mekler (contrabajo), Federico Isasti (batería)"
-summary: ""
-summary_es: "Vida útil es el segundo disco que grabamos con el sexteto. Es una colección de ocho piezas originales en las que buscamos mezclar la sonoridad del grupo con la canción de autor. El repertorio está integrado por temas instrumentales y cantados que cuentan con la participación de <a href="https://www.instagram.com/fer.fontenla/">Fer Fontenla</a>, <a href="https://www.instagram.com/juan.belvis/">Juan Belvis</a>, <a href="https://www.instagram.com/julia.sanjurjo/">Julia Sanjurjo</a> y <a href="https://www.instagram.com/natspiner/">Natalia Spiner</a>, que pusieron voz y letra a cada uno de ellos.
-
-La música de Vida útil continúa en la línea de Invasión! (2019), . Vida útil también está publicado a través del sello de Isla Desierta Discos.
-
-Este álbum cuenta con las voces y los textos de Julia Sanjurjo, Juan Belvis, Natalia Spiner y Fer Fontenla como artistas invitados. El grupo se completa con Jeanette Nenezian en trompeta, Lucas Goicoechea en saxo tenor, Pablo Cavalchini en guitarra eléctrica, Pía Hernández en piano, Federico Isasti en batería y Julián Mekler en contrabajo.
-
-La realización de este proyecto fue posible, en parte, al apoyo del Fondo Nacional de las Artes y al Régimen de Mecenazgo Cultural de la CABA. "
+summary: 'My second album at the helm of this sextet. Vida Útil is a collection of eight pieces where the group''s sound meets the language of singer-songwriters — half the tracks feature vocals and original lyrics by <a href="https://www.instagram.com/julia.sanjurjo/">Julia Sanjurjo</a>, <a href="https://www.instagram.com/juan.belvis/">Juan Belvis</a>, <a href="https://www.instagram.com/natspiner/">Natalia Spiner</a>, and <a href="https://www.instagram.com/fer.fontenla/">Fer Fontenla</a>, while the other half unfold instrumentally in a similar spirit. A powerful and sensitive repertoire that continues the path of Invasión! (2019, Honorary Mention at Argentina''s National Awards 2020). Released on Isla Desierta Discos, with support from the Fondo Nacional de las Artes.'
+summary_es: 'Mi segundo trabajo al frente de este sexteto. Vida útil es una colección de ocho piezas en las que la sonoridad del grupo se entremezcla con la canción de autor — la mitad de los temas cuentan con las voces y los textos de <a href="https://www.instagram.com/julia.sanjurjo/">Julia Sanjurjo</a>, <a href="https://www.instagram.com/juan.belvis/">Juan Belvis</a>, <a href="https://www.instagram.com/natspiner/">Natalia Spiner</a> y <a href="https://www.instagram.com/fer.fontenla/">Fer Fontenla</a>, mientras que el resto se desarrollan instrumentalmente en un espíritu similar. Un repertorio potente y sensible que continúa en la línea de Invasión! (2019, 
+La realización de este proyecto fue posible, en parte, al apoyo del Fondo Nacional de las Artes y al Régimen de Mecenazgo Cultural de la Ciudad de Buenos Aires. "
 bandcamp_url: "https://julianmekler.bandcamp.com/album/vida-til"
 spotify_url: "https://open.spotify.com/album/6IBamNnjZOOXTuibIwCsFi"
 youtube_url: "https://music.youtube.com/playlist?list=OLAK5uy_nlosn_fsurPQlS33yLSjFCdXL4KPvvIaE&si=jJ4gxE1G70dtij7a"
