@@ -15,7 +15,7 @@
   <div class="photo-grid">
     {{ range .Params.photos }}
     <div class="photo-item reveal">
-      <img src="{{ .src | absURL }}" alt="{{ .alt }}" loading="lazy" />
+      <img src="/sitio/{{ .src }}" alt="{{ .alt }}" loading="lazy" />
       <div class="photo-ov"><span><span data-lang-en>{{ .caption }}</span>{{ with .caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span></div>
     </div>
     {{ end }}
