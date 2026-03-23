@@ -1,5 +1,6 @@
 ---
 title: "Mao Khan"
+artiste: "Mao Khan"
 role: "sideman"
 year: 2018
 format: "Contrabajista"
