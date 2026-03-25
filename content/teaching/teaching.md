@@ -27,6 +27,7 @@ offerings:
       
 formats:
   - title: "Online"
+    title_es: "A distancia / Online"
     description: "Via Zoom or Google Meet. Flexible scheduling, open to students worldwide."
     description_es: "Por Zoom o Google Meet. Horarios flexibles, abierto a alumnos de todo el mundo."
   - title: "In Person"
@@ -54,6 +55,9 @@ education:
     detail: "Plan de 3 años"
     detail_es: "Descripción de los estudios."
 
+    additional: "I've also participated as a clinician and guest lecturer at various festivals and workshops, and have been involved in jury panels for music education programs."
+    additional_es: "También he participado como clínico e invitado en diversos festivales y talleres, y he formado parte de jurados en programas de educación musical."
+
 experience:
   - years: "2023 –"
     role: "Teacher"
@@ -74,4 +78,7 @@ experience:
     role_es: "Docencia particular"
     detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles."
     detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles."
+
+    additional: "I've also participated as a clinician and guest lecturer at various festivals and workshops, and have been involved in jury panels for music education programs."
+    additional_es: "También he participado como clínico e invitado en diversos festivales y talleres, y he formado parte de jurados en programas de educación musical."
 ---
