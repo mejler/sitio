@@ -13,7 +13,7 @@ photos:
     alt: "Rehearsal at Residency"
     caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)"
     caption_es: "Big Band del CSMMF - Sala Argentina del Centro Cultural Kirchner (2016)"
-    credit: "© Elías Mekler"
+    credit: "&copy; Elías Mekler"
   - src: "images/gallery/despierta-03-14.jpg"
     alt: "Live performance"
     caption: "Despierta espacio (2014)"
