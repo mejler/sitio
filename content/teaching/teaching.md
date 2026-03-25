@@ -55,17 +55,17 @@ education:
 
 experience:
   - years: "2023 –"
-    role: ""
-    role_es: "Docente universitario"
+    role: "Teacher"
+    role_es: "Docente"
     institution: "Technological University / UTEC (Uruguay)"
     institution_es: "Universidad Tecnológica (Uruguay)"
-    detail: "Doublebass, improvisation, composition, and music production."
-    detail_es: "Contrabajo, improvisación, composición y producción musical."
+    detail: "Teaching Harmony, Reharmonization Techniques and Ensemble, working with small and large groups."
+    detail_es: "Docente de las unidades curriculares Elementos Técnicos 1, 2 y 3, Técnicas de Rearmonización y unidad optativa de Ensamble"
   - years: "2017 –"
     role: "Teaching Assistant"
     role_es: "Ayudante de cátedra"
     institution: "Universidad Nacional de las Artes / Departamento de Artes del Movimiento"
     institution_es: "Universidad Nacional de las Artes / Departamento de Artes del Movimiento"
-    detail: "Small groups, jazz improvisation, ear training."
+    detail: ""
     detail_es: "Grupos pequeños, improvisación jazz, entrenamiento auditivo."
 ---
