@@ -41,7 +41,7 @@ formats:
 education:
   - year: "2026"
     title: "Diploma in Music Composition"
-    title_es: "Tecnicatura en Composición"
+    title_es: "Técnico en Composición"
     institution: "Universidad Nacional de las Artes / Departamento de Artes Musicales y Sonoras"
     institution_es: "Universidad Nacional de las Artes / Departamento de Artes Musicales y Sonoras" 
     detail: "Undergraduate Certificate - Bachelor in Musical Arts (Composition)"
@@ -51,7 +51,7 @@ education:
     title_es: "Técnico Superior en Jazz (Contrabajo)"
     institution: "Manuel de Falla Conservatory"
     institution_es: "Conservatorio Superior de Música Manuel de Falla"
-    detail: "Description of studies."
+    detail: "Plan de 3 años"
     detail_es: "Descripción de los estudios."
 
 experience:
