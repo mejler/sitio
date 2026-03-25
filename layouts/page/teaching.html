@@ -46,7 +46,7 @@
     </div>
   </div>
   {{ end }}
-  <!-- EDUCATION -->
+<!-- EDUCATION -->
   {{ if .Params.education }}
   <div class="teach-section reveal">
     <h2 class="teach-heading"><span data-lang-en>Education</span><span data-lang-es>Formación</span></h2>
@@ -63,17 +63,8 @@
       </div>
       {{ end }}
     </div>
-  </div>
-  {{ end }}
-<!-- ADDITIONAL -->
-  {{ with .Params.additional }}
-  <div class="reveal" style="margin-bottom:2.5rem">
-    <p data-lang-en style="font-size:.9rem;color:var(--t2);line-height:1.8;font-weight:300;max-width:750px">{{ . | safeHTML }}</p>
-  </div>
-  {{ end }}
-  {{ with .Params.additional_es }}
-  <div class="reveal" style="margin-bottom:2.5rem">
-    <p data-lang-es style="font-size:.9rem;color:var(--t2);line-height:1.8;font-weight:300;max-width:750px">{{ . | safeHTML }}</p>
+    {{ with $.Params.additional_edu }}<p data-lang-en style="font-size:.85rem;color:var(--t2);line-height:1.8;font-weight:300;margin-top:1.5rem">{{ . | safeHTML }}</p>{{ end }}
+    {{ with $.Params.additional_edu_es }}<p data-lang-es style="font-size:.85rem;color:var(--t2);line-height:1.8;font-weight:300;margin-top:1.5rem">{{ . | safeHTML }}</p>{{ end }}
   </div>
   {{ end }}
   <!-- TEACHING EXPERIENCE -->
@@ -93,17 +84,9 @@
       </div>
       {{ end }}
     </div>
-  </div>
-  {{ end }}
- <!-- ADDITIONAL -->
-  {{ with .Params.additional }}
-  <div class="reveal" style="margin-bottom:2.5rem">
-    <p data-lang-en style="font-size:.9rem;color:var(--t2);line-height:1.8;font-weight:300;max-width:750px">{{ . | safeHTML }}</p>
-  </div>
-  {{ end }}
-  {{ with .Params.additional_es }}
-  <div class="reveal" style="margin-bottom:2.5rem">
-    <p data-lang-es style="font-size:.9rem;color:var(--t2);line-height:1.8;font-weight:300;max-width:750px">{{ . | safeHTML }}</p>
+    {{ with $.Params.additional_exp }}<p data-lang-en style="font-size:.85rem;color:var(--t2);line-height:1.8;font-weight:300;margin-top:1.5rem">{{ . | safeHTML }}</p>{{ end }}
+    {{ with $.Params.additional_exp_es }}<p data-lang-es style="font-size:.85rem;color:var(--t2);line-height:1.8;font-weight:300;margin-top:1.5rem">{{ . | safeHTML }}</p>{{ end }}
+    </div>
   </div>
   {{ end }}
   <!-- CTA -->
