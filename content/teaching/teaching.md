@@ -65,6 +65,7 @@ experience:
     role: "Teaching Assistant"
     role_es: "Ayudante de cátedra"
     institution: "Universidad Nacional de las Artes / Departamento de Artes del Movimiento"
+    institution_es: "Universidad Nacional de las Artes / Departamento de Artes del Movimiento"
     detail: "Small groups, jazz improvisation, ear training."
     detail_es: "Grupos pequeños, improvisación jazz, entrenamiento auditivo."
 ---
