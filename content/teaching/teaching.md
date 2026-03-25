@@ -4,26 +4,29 @@ layout: "teaching"
 type: "page"
 url: "/teaching/"
 
-intro: "I've been teaching music for several years, working with students privately and in educational settings. Whether you're a beginner exploring improvisation or an advanced player looking to refine your voice, I tailor each lesson to where you are and where you want to go."
-intro_es: "Hace varios años que enseño música, trabajando con alumnos de manera particular y en instituciones. Ya sea que estés empezando a explorar la improvisación o que seas un músico avanzado buscando refinar tu voz, adapto cada clase a donde estás y hacia donde querés ir."
+intro: "I've been teaching music for over a decade, working with students privately and in educational settings. In my lessons I aim to help each student develop their musical creativity while building the technical tools they need to explore their own interests. I work with musicians of different levels and backgrounds — from those taking their first steps to those with experience looking to deepen their musical language. The work adapts to the interests, needs, and goals of each person or group I accompany."
+intro_es: "Hace más de una década que enseño música, trabajando con estudiantes de manera particular y en instituciones. En las clases busco que cada estudiante pueda desarrollar su creatividad musical y al mismo tiempo adquirir las herramientas técnicas necesarias para poder explorar sus intereses. Trabajo con músicos de distintos niveles y orientaciones, desde quienes están dando sus primeros pasos hasta quienes ya tienen un camino recorrido y buscan profundizar en su lenguaje. Cada clase se adapta a los intereses, las necesidades y los objetivos de cada persona o grupo a quienes acompaño."
 
 offerings:
   - title: "Composing"
     title_es: "Composición"
-    description: "Writing original music, arranging for small and large ensembles, form, texture, and the relationship between composition and improvisation."
-    description_es: "Escritura de música original, arreglos para ensambles pequeños y grandes, forma, textura y la relación entre composición e improvisación."
+    description: "Writing original music for different formats and ensembles. Exploring form, texture, orchestration, and finding your own compositional voice."
+    description_es: "Escritura de música original para distintos formatos y ensambles. Exploración de la forma, la textura, la orquestación y la búsqueda de una voz compositiva propia."
+
   - title: "Ear training"
     title_es: "Entrenamiento auditivo / Audioperceptiva"
-    description: "Technique, sound production, repertoire, and instrument-specific guidance for acoustic and electric bass."
-    description_es: "Técnica, producción de sonido, repertorio y orientación específica para contrabajo y bajo eléctrico."
+    description: "Developing the ability to recognize, internalize, and reproduce musical elements — intervals, chords, rhythms, and melodies — connecting what you hear with what you play."
+    description_es: "Desarrollo de la capacidad de reconocer, internalizar y reproducir elementos musicales — intervalos, acordes, ritmos y melodías — conectando lo que se escucha con lo que se toca."
+
   - title: "Improvisation"
     title_es: "Improvisación"
-    description: "Ear training, harmonic awareness, rhythmic concepts, developing a personal vocabulary, and learning to listen."
-    description_es: "Entrenamiento auditivo, conciencia armónica, conceptos rítmicos, desarrollo de un vocabulario personal y aprender a escuchar."
+    description: "Building a personal language through harmonic awareness, rhythmic development, and active listening. Learning to make musical decisions in real time."
+    description_es: "Construcción de un lenguaje personal a través de la conciencia armónica, el desarrollo rítmico y la escucha activa. Aprender a tomar decisiones musicales en tiempo real."
+
   - title: "Music Theory"
     title_es: "Lenguaje musical"
-    description: "Recording, mixing, and producing your own music. Home studio setup and workflow."
-    description_es: "Grabación, mezcla y producción de tu propia música. Armado y flujo de trabajo en home studio."
+    description: "Understanding how music works — harmony, rhythm, counterpoint, and analysis. Building a solid foundation to support your playing, writing, and listening."
+    description_es: "Comprender cómo funciona la música — armonía, ritmo, contrapunto y análisis. Construir una base sólida que acompañe tu interpretación, tu escritura y tu escucha."
       
 formats:
   - title: "Online"
