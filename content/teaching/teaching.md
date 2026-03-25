@@ -54,9 +54,8 @@ education:
     institution_es: "Conservatorio Superior de Música Manuel de Falla"
     detail: "Plan de 3 años"
     detail_es: "Descripción de los estudios."
-
-additional: "I've also participated as a clinician and guest lecturer at various festivals and workshops, and have been involved in jury panels for music education programs."
-additional_es: "También he participado como clínico e invitado en diversos festivales y talleres, y he formado parte de jurados en programas de educación musical."
+    additional_edu: "Text about other education activities..."
+    additional_edu_es: "Texto sobre otras actividades educativas..."
 
 experience:
   - years: "2023 –"
@@ -78,7 +77,6 @@ experience:
     role_es: "Docencia particular"
     detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles."
     detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles."
-
-additional: "I've also participated as a clinician and guest lecturer at various festivals and workshops, and have been involved in jury panels for music education programs."
-additional_es: "También he participado como clínico e invitado en diversos festivales y talleres, y he formado parte de jurados en programas de educación musical."
+    additional_exp: "Text about other professional activities..."
+    additional_exp_es: "Texto sobre otras actividades profesionales..."
 ---
