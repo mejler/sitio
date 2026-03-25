@@ -8,7 +8,7 @@ intro: "I've been teaching music for several years, working with students privat
 intro_es: "Hace varios años que enseño música, trabajando con alumnos de manera particular y en instituciones. Ya sea que estés empezando a explorar la improvisación o que seas un músico avanzado buscando refinar tu voz, adapto cada clase a donde estás y hacia donde querés ir."
 
 offerings:
-  - title: "Composition"
+  - title: "Composing"
     title_es: "Composición"
     description: "Writing original music, arranging for small and large ensembles, form, texture, and the relationship between composition and improvisation."
     description_es: "Escritura de música original, arreglos para ensambles pequeños y grandes, forma, textura y la relación entre composición e improvisación."
@@ -69,4 +69,9 @@ experience:
     institution_es: "Universidad Nacional de las Artes / Departamento de Artes del Movimiento"
     detail: ""
     detail_es: "Grupos pequeños, improvisación jazz, entrenamiento auditivo."
+  - years: "2013 -"
+    role: "Independent teaching"
+    role_es: "Docencia particular"
+    detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles.
+    detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles.
 ---
