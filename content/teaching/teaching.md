@@ -72,6 +72,6 @@ experience:
   - years: "2013 -"
     role: "Independent teaching"
     role_es: "Docencia particular"
-    detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles.
-    detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles.
+    detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles."
+    detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles."
 ---
