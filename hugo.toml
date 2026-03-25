@@ -14,8 +14,10 @@ disableKinds = ["taxonomy", "term"]
   tagline = ""
   tagline_es = ""
   email_booking = ""
-  email_press = "prensa@julianmekler.com"
-  email_general = "contacto@julianmekler.com"
+  email_general = "contact@julianmekler.com"
+  email_general_es = "contacto@julianmekler.com"
+  email_press = "press@julianmekler.com"
+  email_press_es = "prensa@julianmekler.com"
   formspree_id = "maqpzpaa"
   hero_image = "images/hero.jpg"
 
