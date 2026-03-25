@@ -6,8 +6,8 @@
     <p data-lang-es>Para consultas de prensa, colaboraciones, o simplemente para saludar.</p>
 
     <div class="contact-emails">
-      <div class="cd"><p class="cd-label">General</p><a href="mailto:{{ .Site.Params.email_general }}">{{ .Site.Params.email_general }}</a></div>
-      <div class="cd"><p class="cd-label"><span data-lang-en>Press</span><span data-lang-es>Prensa</span></p><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></div>
+      <div class="cd"><p class="cd-label">General</p><span data-lang-en><a href="mailto:{{ .Site.Params.email_general }}">{{ .Site.Params.email_general }}</a></span><span data-lang-es><a href="mailto:{{ .Site.Params.email_general_es }}">{{ .Site.Params.email_general_es }}</a></span></div>
+      <div class="cd"><p class="cd-label"><span data-lang-en>Press</span><span data-lang-es>Prensa</span></p><span data-lang-en><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></span><span data-lang-es><a href="mailto:{{ .Site.Params.email_press_es }}">{{ .Site.Params.email_press_es }}</a></span></div>
     </div>
 
     <form class="c-form" action="https://formspree.io/f/{{ .Site.Params.formspree_id }}" method="POST">
