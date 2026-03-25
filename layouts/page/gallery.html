@@ -16,7 +16,7 @@
     {{ range .Params.photos }}
     <div class="photo-item reveal">
       <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" />
-      <div class="photo-ov"><span><span data-lang-en>{{ .caption }}</span>{{ with .caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span></div>
+      <div class="photo-ov"><span><span data-lang-en>{{ .caption }}</span>{{ with .caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span>{{ with .credit }}<span style="display:block;font-size:.55rem;color:var(--t3);margin-top:.3rem;letter-spacing:.1em">{{ . }}</span>{{ end }}</div>
     </div>
     {{ end }}
   </div>
