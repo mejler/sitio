@@ -6,16 +6,10 @@
 </header>
 <section class="teaching">
   <!-- INTRO -->
-  {{ with .Params.intro }}
   <div class="teach-intro reveal">
-    <p data-lang-en>{{ . | safeHTML }}</p>
+    {{ with .Params.intro }}<p data-lang-en>{{ . | safeHTML }}</p>{{ end }}
+    {{ with .Params.intro_es }}<p data-lang-es>{{ . | safeHTML }}</p>{{ end }}
   </div>
-  {{ end }}
-  {{ with .Params.intro_es }}
-  <div class="teach-intro reveal">
-    <p data-lang-es>{{ . | safeHTML }}</p>
-  </div>
-  {{ end }}
   <!-- WHAT I OFFER -->
   {{ if .Params.offerings }}
   <div class="teach-section reveal">
