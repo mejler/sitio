@@ -183,6 +183,8 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
 .lightbox{position:fixed;inset:0;z-index:500;background:rgba(5,5,5,.95);backdrop-filter:blur(20px);display:none;align-items:center;justify-content:center;cursor:zoom-out}
 .lightbox.open{display:flex}
 .lightbox img{max-width:90vw;max-height:85vh;object-fit:contain;cursor:default}
+.lb-info{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);text-align:center}
+.lb-info span{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--t2);text-shadow:0 1px 3px rgba(0,0,0,.8)}
 .lb-close{position:absolute;top:2rem;right:2rem;background:none;border:none;color:var(--t2);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
 .lb-nav{position:absolute;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--t2);font-size:2rem;cursor:pointer;padding:1rem;transition:color .3s}
 .lb-nav:hover{color:var(--ac)}.lb-prev{left:1.5rem}.lb-next{right:1.5rem}
