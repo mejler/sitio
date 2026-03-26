@@ -32,6 +32,7 @@ photos:
     caption: "Julián Mekler Sextet at Vicente el Absurdo (2018)"
     caption_es: "Vicente el Absurdo (2018)"
     credit: "&copy; Elías Mekler"
+    featured: "true"
   - src: "images/gallery/vicente-el-absurdo-11-2017.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética @Vicente el Absurdo (2017)"
