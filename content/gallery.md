@@ -1,5 +1,6 @@
 ---
 title: "Gallery"
+# force rebuild
 layout: "gallery"
 type: "page"
 url: "/gallery/"
