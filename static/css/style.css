@@ -259,7 +259,7 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
 
 /* ========== TEACHING ========== */
 .teaching{padding:0 3rem 7rem;max-width:1000px;margin:0 auto}
-.teach-intro{font-size:1rem;color:var(--t2);line-height:1.9;font-weight:300;max-width:750px;margin-bottom:4rem}
+.teach-intro{font-size:1rem;color:var(--t2);line-height:1.9;font-weight:300;margin-bottom:4rem}
 .teach-section{margin-bottom:4rem;padding-bottom:4rem;border-bottom:1px solid var(--brd)}
 .teach-section:last-of-type{border-bottom:none;margin-bottom:2rem}
 .teach-heading{font-family:var(--head);font-size:1.4rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:2rem}
