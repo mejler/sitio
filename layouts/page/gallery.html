@@ -64,16 +64,25 @@
       document.querySelectorAll('#' + t + ' .reveal:not(.visible)').forEach(el => revealObs.observe(el));
     });
   });
-  const lb = document.getElementById('lightbox'), lbi = document.getElementById('lightboxImg');
-  const phs = document.querySelectorAll('.photo-item img');
+  const lb = document.getElementById('lightbox'), lbi = document.getElementById('lightboxImg'), lbInfo = document.getElementById('lightboxInfo');
+  const phs = document.querySelectorAll('.photo-item');
   let ci = 0;
-  phs.forEach((img, i) => { img.addEventListener('click', () => { ci = i; lbi.src = img.src; lb.classList.add('open'); document.body.style.overflow = 'hidden'; }); });
-  const clb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
-  lb.querySelector('.lb-close').addEventListener('click', clb);
-  lb.addEventListener('click', e => { if (e.target === lb) clb(); });
-  lb.querySelector('.lb-prev').addEventListener('click', e => { e.stopPropagation(); ci = (ci - 1 + phs.length) % phs.length; lbi.src = phs[ci].src; });
-  lb.querySelector('.lb-next').addEventListener('click', e => { e.stopPropagation(); ci = (ci + 1) % phs.length; lbi.src = phs[ci].src; });
-  document.addEventListener('keydown', e => { if (!lb.classList.contains('open')) return; if (e.key === 'Escape') clb(); if (e.key === 'ArrowLeft') lb.querySelector('.lb-prev').click(); if (e.key === 'ArrowRight') lb.querySelector('.lb-next').click(); });
+  function showLb(i) {
+    ci = i;
+    const img = phs[i].querySelector('img');
+    const ov = phs[i].querySelector('.photo-ov');
+    lbi.src = img.src;
+    lbInfo.innerHTML = ov ? ov.innerHTML : '';
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
+phs.forEach((item, i) => { item.addEventListener('click', () => showLb(i)); });
+const clb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
+lb.querySelector('.lb-close').addEventListener('click', clb);
+lb.addEventListener('click', e => { if (e.target === lb) clb(); });
+lb.querySelector('.lb-prev').addEventListener('click', e => { e.stopPropagation(); showLb((ci - 1 + phs.length) % phs.length); });
+lb.querySelector('.lb-next').addEventListener('click', e => { e.stopPropagation(); showLb((ci + 1) % phs.length); });
+document.addEventListener('keydown', e => { if (!lb.classList.contains('open')) return; if (e.key === 'Escape') clb(); if (e.key === 'ArrowLeft') lb.querySelector('.lb-prev').click(); if (e.key === 'ArrowRight') lb.querySelector('.lb-next').click(); });
 </script>
 {{ end }}
 
