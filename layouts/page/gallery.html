@@ -1,27 +1,50 @@
 {{ define "main" }}
-
 <header class="page-hd">
   <h1 data-lang-en>Gallery</h1><h1 data-lang-es>Galería</h1>
   <p data-lang-en>Live performances, studio sessions, and behind the scenes.</p>
   <p data-lang-es>Shows en vivo, sesiones de estudio y detrás de escena.</p>
 </header>
-
 <div class="gal-tabs">
   <button class="gal-tab active" data-tab="videos">Videos</button>
   <button class="gal-tab" data-tab="photos"><span data-lang-en>Photos</span><span data-lang-es>Fotos</span></button>
 </div>
-
 <section class="gal-section hidden" id="photos">
-  <div class="photo-grid">
-    {{ range .Params.photos }}
-    <div class="photo-item{{ if .featured }} feat{{ end }} reveal">
-      <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" />
-      <div class="photo-ov"><span><span data-lang-en>{{ .caption }}</span>{{ with .caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span>{{ with .credit }}<span style="display:block;font-size:.55rem;color:var(--t3);margin-top:.3rem;letter-spacing:.1em">{{ . }}</span>{{ end }}</div>
-    </div>
+  <div class="photo-gallery">
+    {{ $photos := .Params.photos }}
+    {{ $total := len $photos }}
+    {{ $i := 0 }}
+    {{ $rowNum := 0 }}
+    {{ range $photos }}{{ end }}{{/* force evaluation */}}
+    {{ $i = 0 }}
+    {{ $rowNum = 0 }}
+    {{/* Pattern: 2 tall, 3 medium, 2 short, 3 medium, repeat */}}
+    {{ $patterns := slice 2 3 2 3 }}
+    {{ $heights := slice "tall" "medium" "short" "medium" }}
+    {{ range $idx, $photo := $photos }}
+      {{ $patIdx := mod $rowNum 4 }}
+      {{ $rowSize := index $patterns $patIdx }}
+      {{ $rowHeight := index $heights $patIdx }}
+      {{/* Open row */}}
+      {{ if eq $i 0 }}
+      <div class="pg-row {{ $rowHeight }}">
+      {{ end }}
+        <div class="pg-item">
+          <img src="{{ $photo.src | relURL }}" alt="{{ $photo.alt }}" loading="lazy" />
+          <div class="pg-ov">
+            <span><span data-lang-en>{{ $photo.caption }}</span>{{ with $photo.caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span>
+            {{ with $photo.credit }}<em>{{ . | safeHTML }}</em>{{ end }}
+          </div>
+        </div>
+      {{ $i = add $i 1 }}
+      {{/* Close row when full or last item */}}
+      {{ if or (ge $i $rowSize) (eq (add $idx 1) $total) }}
+      </div>
+        {{ $i = 0 }}
+        {{ $rowNum = add $rowNum 1 }}
+      {{ end }}
     {{ end }}
   </div>
 </section>
-
 <section class="gal-section" id="videos">
   <div class="video-grid">
     {{ range .Params.videos }}
@@ -41,7 +64,6 @@
     {{ end }}
   </div>
 </section>
-
 <div class="lightbox" id="lightbox">
   <button class="lb-close">Close ✕</button>
   <button class="lb-nav lb-prev">‹</button>
@@ -49,11 +71,10 @@
   <img src="" alt="" id="lightboxImg" />
   <div class="lb-info" id="lightboxInfo"></div>
 </div>
-
 {{ end }}
-
 {{ define "scripts" }}
 <script>
+  // Tabs
   document.querySelectorAll('.gal-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.gal-tab').forEach(t => t.classList.remove('active'));
@@ -61,28 +82,51 @@
       const t = tab.dataset.tab;
       document.getElementById('photos').classList.toggle('hidden', t !== 'photos');
       document.getElementById('videos').classList.toggle('hidden', t !== 'videos');
-      document.querySelectorAll('#' + t + ' .reveal:not(.visible)').forEach(el => revealObs.observe(el));
+      // Trigger reveal for newly visible items
+      document.querySelectorAll('#' + t + ' .pg-item:not(.visible), #' + t + ' .reveal:not(.visible)').forEach(el => pgObs.observe(el));
     });
   });
-  const lb = document.getElementById('lightbox'), lbi = document.getElementById('lightboxImg'), lbInfo = document.getElementById('lightboxInfo');
-  const phs = document.querySelectorAll('.photo-item');
+
+  // Scroll reveal for photos
+  const pgObs = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (en.isIntersecting) {
+        en.target.classList.add('visible');
+        pgObs.unobserve(en.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.pg-item').forEach(el => pgObs.observe(el));
+  document.querySelectorAll('.reveal').forEach(el => pgObs.observe(el));
+
+  // Lightbox
+  const lb = document.getElementById('lightbox');
+  const lbi = document.getElementById('lightboxImg');
+  const lbInfo = document.getElementById('lightboxInfo');
+  const pgItems = document.querySelectorAll('.pg-item');
   let ci = 0;
+
   function showLb(i) {
     ci = i;
-    const img = phs[i].querySelector('img');
-    const ov = phs[i].querySelector('.photo-ov');
+    const img = pgItems[i].querySelector('img');
+    const ov = pgItems[i].querySelector('.pg-ov');
     lbi.src = img.src;
     lbInfo.innerHTML = ov ? ov.innerHTML : '';
     lb.classList.add('open');
     document.body.style.overflow = 'hidden';
-}
-phs.forEach((item, i) => { item.addEventListener('click', () => showLb(i)); });
-const clb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
-lb.querySelector('.lb-close').addEventListener('click', clb);
-lb.addEventListener('click', e => { if (e.target === lb) clb(); });
-lb.querySelector('.lb-prev').addEventListener('click', e => { e.stopPropagation(); showLb((ci - 1 + phs.length) % phs.length); });
-lb.querySelector('.lb-next').addEventListener('click', e => { e.stopPropagation(); showLb((ci + 1) % phs.length); });
-document.addEventListener('keydown', e => { if (!lb.classList.contains('open')) return; if (e.key === 'Escape') clb(); if (e.key === 'ArrowLeft') lb.querySelector('.lb-prev').click(); if (e.key === 'ArrowRight') lb.querySelector('.lb-next').click(); });
+  }
+
+  pgItems.forEach((item, i) => item.addEventListener('click', () => showLb(i)));
+  const closeLb = () => { lb.classList.remove('open'); document.body.style.overflow = ''; };
+  lb.querySelector('.lb-close').addEventListener('click', closeLb);
+  lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
+  lb.querySelector('.lb-prev').addEventListener('click', e => { e.stopPropagation(); showLb((ci - 1 + pgItems.length) % pgItems.length); });
+  lb.querySelector('.lb-next').addEventListener('click', e => { e.stopPropagation(); showLb((ci + 1) % pgItems.length); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowLeft') lb.querySelector('.lb-prev').click();
+    if (e.key === 'ArrowRight') lb.querySelector('.lb-next').click();
+  });
 </script>
 {{ end }}
-
