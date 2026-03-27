@@ -28,7 +28,7 @@
       {{ if eq $i 0 }}
       <div class="pg-row {{ $rowHeight }}">
       {{ end }}
-        <div class="pg-item">
+        <div class="pg-item{{ if eq $photo.orientation "portrait" }} portrait{{ end }}">
           <img src="{{ $photo.src | relURL }}" alt="{{ $photo.alt }}" loading="lazy" />
           <div class="pg-ov">
             <span><span data-lang-en>{{ $photo.caption }}</span>{{ with $photo.caption_es }}<span data-lang-es>{{ . }}</span>{{ end }}</span>
