@@ -34,13 +34,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           rm -rf ${{ runner.temp }}/hugo_cache
-          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug gallery
-        run: |
-          echo "=== Photos in gallery HTML ==="
-          grep -c "photo-item" ./public/gallery/index.html || echo "No gallery found"
-          grep "feat" ./public/gallery/index.html || echo "No feat class found"
-          head -100 ./public/gallery/index.html
+          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"     
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
