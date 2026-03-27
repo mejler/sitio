@@ -172,6 +172,7 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
   opacity:0;transform:translateY(30px) scale(.98);
   transition:opacity .7s var(--ease),transform .7s var(--ease)}
 .pg-item.visible{opacity:1;transform:translateY(0) scale(1)}
+.pg-item.portrait{flex:.5}
 .pg-row .pg-item:nth-child(2){transition-delay:.12s}
 .pg-row .pg-item:nth-child(3){transition-delay:.24s}
 .pg-row .pg-item:nth-child(4){transition-delay:.36s}
