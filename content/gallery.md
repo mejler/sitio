@@ -30,6 +30,7 @@ photos:
     caption_es: "Roseti Espacio (2019)"
     credit: "© Guillermo Beratravide"
     orientation: "portrait"
+    focus: "top"
   - src: "images/gallery/vicente-el-absurdo-03-18.jpg"
     alt: "Julián Mekler Sexteto playing live"
     caption: "Julián Mekler Sextet at Vicente el Absurdo (2018)"
