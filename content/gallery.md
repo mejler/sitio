@@ -9,47 +9,57 @@ photos:
     alt: "Live performance"
     caption: "OCHO at Vuela el Pez (2018)"
     caption_es: "OCHO en Vuela el Pez (2018)"
+    orientation: landscape
   - src: "images/gallery/cck-2016.jpg"
     alt: "Live Big Band performance"
     caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)"
     caption_es: "Big Band del CSMMF - Sala Argentina del Centro Cultural Kirchner (2016)"
     credit: "© Elías Mekler"
+    orientation: landscape
   - src: "images/gallery/despierta-03-14.jpg"
     alt: "Live performance"
     caption: "Despierta espacio (2014)"
     caption_es: "Despierta espacio (2014)"
+    orientation: portrait
   - src: "images/gallery/jazz-a-la-calle-01-2023.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     caption_es: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     credit: "© Héctor Cacheiro"
+    orientation: landscape
   - src: "images/gallery/roseti-11-2019.jpg"
     alt: "Live performance"
     caption: "Roseti Espacio (2019)"
     caption_es: "Roseti Espacio (2019)"
     credit: "© Guillermo Beratravide"
+    orientation: portrait
   - src: "images/gallery/vicente-el-absurdo-03-18.jpg"
     alt: "Julián Mekler Sexteto playing live"
     caption: "Julián Mekler Sextet at Vicente el Absurdo (2018)"
     caption_es: "Vicente el Absurdo (2018)"
+    orientation: landscape
     credit: "© Elías Mekler"
     featured: true
   - src: "images/gallery/vicente-el-absurdo-11-2017.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética @Vicente el Absurdo (2017)"
     caption_es: "La Cocina Magnética @Vicente el Absurdo (2017)"
+    orientation: landscape
   - src: "images/gallery/vicente-el-absurdo-11-2017-2.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética @Vicente el Absurdo (2017)"
     caption_es: "La Cocina Magnética @Vicente el Absurdo (2017)"
+    orientation: landscape
   - src: "images/gallery/vicente-el-absurdo-11-2017-3.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética @Vicente el Absurdo (2017)"
     caption_es: "La Cocina Magnética @Vicente el Absurdo (2017)"
+    orientation: portrait
   - src: "images/gallery/cck-05-2016.jpg"
     alt: "Rehearsal at Residency"
     caption: "Ben Goldberg's Residency at Jazz Residencies Program at Centro Cultural Kirchner (2016)"
     caption_es: "Residencia de Ben Goldberg en el programa Residencias Jazz - Centro Cultural Kirchner (2016)"
+    orientation: landscape
 
 videos:
   - title: "Isla Desierta Presenta: Julián Mekler Sexteto"
