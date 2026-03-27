@@ -44,8 +44,8 @@ jobs:
           rm -rf ${{ runner.temp }}/hugo_cache
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
