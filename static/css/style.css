@@ -239,7 +239,7 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
 
 /* ========== PRESS ========== */
 .press-nav{padding:1.5rem 3rem;border-bottom:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center}
-.press-nav>a{font-size:.85rem;font-weight:400;letter-spacing:.25em;text-transform:uppercase}
+.press-nav>a{font-size:.85rem;font-weight:400;letter-spacing:.10em;text-transform:uppercase}
 .press-nav-r{display:flex;align-items:center;gap:1.5rem}
 .press-badge{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--acd);border:1px solid var(--acd);padding:.3rem .75rem}
 .press-wrap{max-width:900px;margin:0 auto;padding:5rem 3rem}
