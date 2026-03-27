@@ -27,14 +27,14 @@
     <div class="press-hd">
       <h1 data-lang-en>Electronic Press Kit</h1><h1 data-lang-es>Kit de Prensa Electrónico</h1>
       <p data-lang-en>For press inquiries, contact <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></p>
-      <p data-lang-es>Para consultas de prensa, escribir a <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></p>
+      <p data-lang-es>Para consultas de prensa, escribir a <a href="mailto:{{ .Site.Params.email_press_es }}">{{ .Site.Params.email_press_es }}</a></p>
     </div>
 
     {{ .Content }}
   </main>
 
   <footer class="press-ft">
-    <p>© {{ now.Year }} {{ .Site.Title }} · <a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a> · <a href="{{ "" | relURL }}"><span data-lang-en>Back to main site</span><span data-lang-es>Volver al sitio</span></a></p>
+    <p>© {{ now.Year }} {{ .Site.Title }} · <span data-lang-en><a href="mailto:{{ .Site.Params.email_press }}">{{ .Site.Params.email_press }}</a></span><span data-lang-es><a href="mailto:{{ .Site.Params.email_press_es }}">{{ .Site.Params.email_press_es }}</a></span> · <a href="{{ "" | relURL }}"><span data-lang-en>Back to main site</span><span data-lang-es>Volver al sitio</span></a></p>
   </footer>
 
   <script src="{{ "js/main.js" | relURL }}"></script>
