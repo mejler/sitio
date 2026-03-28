@@ -68,7 +68,7 @@ experience:
     institution: "Technological University / UTEC (Uruguay)"
     institution_es: "Universidad Tecnológica (Uruguay)"
     detail: "Teaching Harmony, Reharmonization Techniques and Ensemble, working with small and large groups."
-    detail_es: "Docente de las unidades curriculares Elementos Técnicos 1, 2 y 3, Técnicas de Rearmonización y unidad optativa de Ensamble"
+    detail_es: "Docente de las unidades curriculares Elementos Técnicos 1, 2 y 3, Técnicas de Rearmonización y unidad optativa de Ensamble de Música Popular Contemporánea"
   - years: "2017 –"
     role: "Teaching Assistant"
     role_es: "Ayudante de cátedra"
