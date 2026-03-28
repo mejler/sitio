@@ -6,8 +6,7 @@
     <ul class="nav-links">
       <li><a href="{{ "" | relURL }}"{{ if $isHome }} class="active"{{ end }}>Home</a></li>
       <li><a href="{{ "shows/" | relURL }}"{{ if in $current "shows" }} class="active"{{ end }}><span data-lang-en>Shows</span><span data-lang-es>Conciertos</span></a></li>
-      <li><a href="{{ "listen/" | relURL }}"{{ if in $current "listen" }} class="active"{{ end }}><span data-lang-en>Listen</span><span data-lang-es>Escuchar</span></a></li>
-      <li><a href="{{ "discography/" | relURL }}"{{ if in $current "discography" }} class="active"{{ end }}><span data-lang-en>Discography</span><span data-lang-es>Discografía</span></a></li>
+      <li><a href="{{ "music/" | relURL }}"{{ if or (in $current "music") (in $current "listen") (in $current "discography") }} class="active"{{ end }}><span data-lang-en>Music</span><span data-lang-es>Música</span></a></li>
       <li><a href="{{ "teaching/" | relURL }}"{{ if in $current "teaching" }} class="active"{{ end }}><span data-lang-en>Teaching</span><span data-lang-es>Clases</span></a></li>
       <li><a href="{{ "gallery/" | relURL }}"{{ if in $current "gallery" }} class="active"{{ end }}><span data-lang-en>Gallery</span><span data-lang-es>Galería</span></a></li>
       <li><a href="{{ "contact/" | relURL }}"{{ if in $current "contact" }} class="active"{{ end }}><span data-lang-en>Contact</span><span data-lang-es>Contacto</span></a></li>
