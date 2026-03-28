@@ -1,0 +1,88 @@
+{{ define "main" }}
+<header class="page-hd">
+  <h1 data-lang-en>Music</h1><h1 data-lang-es>Música</h1>
+  <p data-lang-en>Stream and explore the full catalog.</p>
+  <p data-lang-es>Escuchá y explorá el catálogo completo.</p>
+</header>
+<section class="listen">
+  <!-- AS LEADER -->
+  <div class="disco-hd">
+    <span class="disco-t"><span data-lang-en>As Leader</span><span data-lang-es>Como Líder</span></span>
+  </div>
+  <div class="listen-grid">
+    {{ $leader := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
+    {{ range sort $leader ".Params.year" "desc" }}
+    <div class="li-item reveal">
+      <div class="li-player">
+        {{ if .Params.bandcamp_embed }}
+        {{ .Params.bandcamp_embed | safeHTML }}
+        {{ else }}
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+        <span>Bandcamp Player</span>
+        {{ end }}
+      </div>
+      <div class="li-info">
+        <h3>{{ .Title }}</h3>
+        <p class="li-meta">{{ .Params.year }} · {{ .Params.label }}</p>
+        <p class="alb-pers" data-lang-en>{{ .Params.personnel }}</p>
+        {{ with .Params.personnel_es }}<p class="alb-pers" data-lang-es>{{ . }}</p>{{ end }}
+        <p data-lang-en style="margin-top:.75rem">{{ .Params.summary | safeHTML }}</p>
+        {{ with .Params.summary_es }}<p data-lang-es style="margin-top:.75rem">{{ . | safeHTML }}</p>{{ end }}
+        <div class="li-links">
+          {{ with .Params.bandcamp_url }}<a href="{{ . }}" target="_blank" rel="noopener">Bandcamp</a>{{ end }}
+          {{ with .Params.spotify_url }}<a href="{{ . }}" target="_blank" rel="noopener">Spotify</a>{{ end }}
+          {{ with .Params.apple_url }}<a href="{{ . }}" target="_blank" rel="noopener">Apple Music</a>{{ end }}
+          {{ with .Params.youtube_url }}<a href="{{ . }}" target="_blank" rel="noopener">YouTube Music</a>{{ end }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- AS SIDEMAN -->
+  {{ $sideman := where (where .Site.RegularPages "Section" "discography") ".Params.role" "sideman" }}
+  {{ if $sideman }}
+  <div class="disco-hd" style="margin-top:4rem">
+    <span class="disco-t"><span data-lang-en>As Sideman</span><span data-lang-es>Participaciones</span></span>
+  </div>
+  <div class="disco-sideman" id="sidemanGrid">
+    {{ range sort $sideman ".Params.year" "desc" }}
+    <div class="sm-item reveal"
+      {{ with .Params.cover }}data-cover="{{ . | relURL }}"{{ end }}
+      {{ with .Params.spotify_url }}data-spotify="{{ . }}"{{ end }}>
+      <div class="sm-cover"><div class="sm-ph">Cover</div></div>
+      <div class="sm-info">
+        <h4><a href="{{ with .Params.link }}{{ . }}{{ else }}#{{ end }}" target="_blank" rel="noopener">{{ .Title }}</a></h4>
+        <p class="sm-artist">{{ .Params.artist }}</p>
+        <p class="sm-meta">{{ .Params.year }} · {{ .Params.label }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+{{ define "scripts" }}
+<script>
+document.querySelectorAll('.sm-item').forEach(async (item) => {
+  const coverEl = item.querySelector('.sm-cover');
+  const localCover = item.getAttribute('data-cover');
+  const spotifyUrl = item.getAttribute('data-spotify');
+  if (localCover) {
+    coverEl.innerHTML = '<img src="' + localCover + '" alt="Cover" loading="lazy" />';
+  } else if (spotifyUrl) {
+    coverEl.classList.add('loading');
+    try {
+      const res = await fetch('https://open.spotify.com/oembed?url=' + encodeURIComponent(spotifyUrl));
+      if (res.ok) {
+        const data = await res.json();
+        if (data.thumbnail_url) {
+          coverEl.innerHTML = '<img src="' + data.thumbnail_url + '" alt="' + (data.title || 'Cover') + '" loading="lazy" />';
+        }
+      }
+    } catch (e) { /* keep placeholder */ }
+    coverEl.classList.remove('loading');
+  }
+});
+</script>
+{{ end }}
