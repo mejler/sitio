@@ -4,8 +4,8 @@ layout: "teaching"
 type: "page"
 url: "/teaching/"
 
-intro: "I've been teaching music for over a decade, working with students privately and in educational settings. In my lessons I aim to help each student develop their musical creativity while building the technical tools they need to explore their own interests. I work with musicians of different levels and backgrounds — from those taking their first steps to those with experience looking to deepen their musical language. The work adapts to the interests, needs, and goals of each person or group I accompany."
-intro_es: "Hace más de una década que enseño música, trabajando con estudiantes de manera particular y en instituciones. En las clases busco que cada estudiante pueda desarrollar su creatividad musical y al mismo tiempo adquirir las herramientas técnicas necesarias para poder explorar sus intereses. Trabajo con músicos de distintos niveles y orientaciones, desde quienes están dando sus primeros pasos hasta quienes ya tienen un camino recorrido y buscan profundizar en su lenguaje. Cada clase se adapta a los intereses, las necesidades y los objetivos de cada persona o grupo a quienes acompaño."
+intro: "I've been teaching music for over a decade, working with students privately and in educational settings. In my lessons I aim to help each student develop their musical creativity while building the technical tools they need to explore their own interests. I work with musicians of different levels and backgrounds — from those taking their first steps to those with experience looking to deepen their musical language. The work adapts to the needs and goals of each person or group I accompany."
+intro_es: "Hace más de una década que enseño música, trabajando con estudiantes de manera particular y en instituciones. En las clases busco que cada estudiante pueda desarrollar su creatividad musical y al mismo tiempo adquirir las herramientas técnicas necesarias para poder explorar sus intereses. Trabajo con músicos de distintos niveles y orientaciones, desde quienes están dando sus primeros pasos hasta quienes ya tienen un camino recorrido y buscan profundizar en su lenguaje. Cada clase se adapta a las necesidades y los objetivos de cada persona o grupo a quienes acompaño."
 
 offerings:
   - title: "Composing"
@@ -16,12 +16,12 @@ offerings:
   - title: "Ear training"
     title_es: "Entrenamiento auditivo / Audioperceptiva"
     description: "Developing the ability to recognize, internalize, and reproduce musical elements — intervals, chords, rhythms, and melodies — connecting what you hear with what you play."
-    description_es: "Desarrollo de la capacidad de reconocer, internalizar y reproducir elementos musicales — intervalos, acordes, ritmos y melodías — conectando lo que se escucha con lo que se toca."
+    description_es: "Desarrollo de la capacidad de reconocer, internalizar y reproducir elementos musicales — intervalos, acordes, ritmos y melodías — cómo conectar lo que se escucha con lo que se toca."
 
   - title: "Improvisation"
     title_es: "Improvisación"
-    description: "Building a personal language through harmonic awareness, rhythmic development, and active listening. Learning to make musical decisions in real time."
-    description_es: "Construcción de un lenguaje personal a través de la conciencia armónica, el desarrollo rítmico y la escucha activa. Aprender a tomar decisiones musicales en tiempo real."
+    description: "Building a personal language through formal awareness, harmony, rhythmic development, and active listening. Learning to make musical decisions in real time."
+    description_es: "Construcción de un lenguaje personal a través de la conciencia formal, el conocimiento de la armonía, el desarrollo rítmico y la escucha activa. Aprender a tomar decisiones musicales en tiempo real."
 
   - title: "Music Theory"
     title_es: "Lenguaje musical"
@@ -36,7 +36,7 @@ formats:
   - title: "In Person"
     title_es: "Presencial"
     description: "Available in Buenos Aires. Contact for details and availability."
-    description_es: "Disponible en Buenos Aires. Consultá por disponibilidad."
+    description_es: "Disponible en Buenos Aires. <a href="www.julianmekler.com/contact">Consultá por disponibilidad.</a>"
   - title: "Workshops"
     title_es: "Talleres"
     description: "Available for groups, institutions, festivals, and ensembles."
