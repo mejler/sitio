@@ -37,8 +37,8 @@ noindex: true
   <p class="press-sl"><span data-lang-en>Hi-Resolution Photos</span><span data-lang-es>Fotos en Alta Resolución</span></p>
   <div class="press-photos">
     <div class="pp"><img src="images/press/press-1.jpg" alt="Press photo 1" /><div class="pp-dl"><span>Daniela Haikins</span><a href="/images/press/press-1.jpg" download>Download ↓</a></div></div>
-    <div class="pp"><img src="images/press/press-2.jpg" alt="Press photo 2" /><div class="pp-dl"><span>J. Bostrom</span><a href="/images/press/press-2-hires.jpg" download>Download ↓</a></div></div>
-    <div class="pp"><img src="images/press/press-3.jpg" alt="Press photo 3" /><div class="pp-dl"><span>S. Montiglia</span><a href="/images/press/press-3-hires.jpg" download>Download ↓</a></div></div>
+    <div class="pp"><img src="images/press/press-2.jpg" alt="Press photo 2" /><div class="pp-dl"><span>J. Bostrom</span><a href="/images/press/press-2.jpg" download>Download ↓</a></div></div>
+    <div class="pp"><img src="images/press/press-3.jpg" alt="Press photo 3" /><div class="pp-dl"><span>S. Montiglia</span><a href="/images/press/press-3.jpg" download>Download ↓</a></div></div>
   </div>
 </section>
 
