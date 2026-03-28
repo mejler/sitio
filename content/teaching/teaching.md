@@ -5,7 +5,7 @@ type: "page"
 url: "/teaching/"
 
 intro: "I've been teaching music for over a decade, working with students privately and in educational settings. In my lessons I aim to help each student develop their musical creativity while building the technical tools they need to explore their own interests. I work with musicians of different levels and backgrounds — from those taking their first steps to those with experience looking to deepen their musical language. The work adapts to the needs and goals of each person or group I accompany."
-intro_es: "Hace más de una década que enseño música, trabajando con estudiantes de manera particular y en instituciones. En las clases busco que cada estudiante pueda desarrollar su creatividad musical y al mismo tiempo adquirir las herramientas técnicas necesarias para poder explorar sus intereses. Trabajo con músicos de distintos niveles y orientaciones, desde quienes están dando sus primeros pasos hasta quienes ya tienen un camino recorrido y buscan profundizar en su lenguaje. Cada clase se adapta a las necesidades y los objetivos de cada persona o grupo a quienes acompaño."
+intro_es: "Hace más de una década que enseño música trabajando con estudiantes de manera particular y en instituciones. En las clases busco que cada estudiante pueda desarrollar su creatividad musical y al mismo tiempo adquirir las herramientas técnicas necesarias para poder explorar sus intereses. Trabajo con músicos de distintos niveles y orientaciones, desde quienes están dando sus primeros pasos hasta quienes ya tienen un camino recorrido y buscan profundizar en su lenguaje. Cada clase se adapta a las necesidades y los objetivos de las personas y grupos a quienes acompaño."
 
 offerings:
   - title: "Composing"
@@ -15,18 +15,18 @@ offerings:
 
   - title: "Ear training"
     title_es: "Entrenamiento auditivo / Audioperceptiva"
-    description: "Developing the ability to recognize, internalize, and reproduce musical elements — intervals, chords, rhythms, and melodies — connecting what you hear with what you play."
-    description_es: "Desarrollo de la capacidad de reconocer, internalizar y reproducir elementos musicales — intervalos, acordes, ritmos y melodías — cómo conectar lo que se escucha con lo que se toca."
+    description: "Developing the ability to recognize, internalize, and reproduce musical elements — sight reading, intervals, chords, rhythms, and melodies — connecting what you hear with what you play and write."
+    description_es: "Desarrollo de la capacidad de reconocer, internalizar y reproducir elementos musicales — lectura, intervalos, acordes, ritmos y melodías — cómo conectar lo que se escucha con lo que se toca y se escribe."
 
   - title: "Improvisation"
     title_es: "Improvisación"
-    description: "Building a personal language through formal awareness, harmony, rhythmic development, and active listening. Learning to make musical decisions in real time."
-    description_es: "Construcción de un lenguaje personal a través de la conciencia formal, el conocimiento de la armonía, el desarrollo rítmico y la escucha activa. Aprender a tomar decisiones musicales en tiempo real."
+    description: "Building a personal language through formal awareness, harmony, rhythmic development, and active listening. Learning to make musical decisions in real time and in context with others."
+    description_es: "Construcción de un lenguaje personal a través de la conciencia formal, el conocimiento de la armonía, el desarrollo rítmico y la escucha activa. Aprender a tomar decisiones musicales en tiempo real y      en contexto con otros."
 
   - title: "Music Theory"
     title_es: "Lenguaje musical"
-    description: "Understanding how music works — harmony, rhythm, counterpoint, and analysis. Building a solid foundation to support your playing, writing, and listening."
-    description_es: "Comprender cómo funciona la música — armonía, ritmo, contrapunto y análisis. Construir una base sólida que acompañe tu interpretación, tu escritura y tu escucha."
+    description: "Understanding how music works — analysis, harmony, rhythm and counterpoint. Building a solid foundation to support your playing, writing, and listening."
+    description_es: "Comprender cómo funciona la música — análisis, armonía, ritmo y contrapunto. Construir una base sólida que acompañe tu interpretación, tu escritura y tu escucha."
       
 formats:
   - title: "Online"
@@ -35,8 +35,8 @@ formats:
     description_es: "Por Zoom o Google Meet. Horarios flexibles, abierto a alumnos de todo el mundo."
   - title: "In Person"
     title_es: "Presencial"
-    description: 'Available in Buenos Aires. <a href="https://www.julianmekler.com/contact">Contact for details and availability.</a>'
-    description_es: 'Disponible en Buenos Aires. <a href="https://www.julianmekler.com/contact">Consultá por disponibilidad.</a>'
+    description: "Available in Buenos Aires. Contact for details and availability.</a>"
+    description_es: "Disponible en Buenos Aires. Consultá por disponibilidad.</a>"
   - title: "Workshops"
     title_es: "Talleres"
     description: "Available for groups, institutions, festivals, and ensembles."
