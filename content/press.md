@@ -27,7 +27,7 @@ noindex: true
 <section class="press-s">
   <p class="press-sl"><span data-lang-en>Selected Press</span><span data-lang-es>Prensa Seleccionada</span></p>
   <div class="press-quotes">
-    <div class="pq"><p>"A guitarist with a singular voice — poised between the cerebral and the deeply lyrical."</p><cite>— DownBeat ★★★★</cite></div>
+    <div class="pq"><p>"Invasión!, del Julián Mekler Sexteto, un álbum lleno de texturas y lograda creatividad, que evidencia la madurez de los músicos que tomaron parte de él."</p><cite>— BAENegocios</cite></div>
     <div class="pq"><p>"Peripheral Vision is a quietly radical record, full of spaces and unexpected textures."</p><cite>— The New York Times</cite></div>
     <div class="pq"><p>"One of the most compelling new voices on the guitar in years."</p><cite>— JazzTimes</cite></div>
   </div>
