@@ -13,8 +13,8 @@ noindex: true
     <button class="bio-btn" data-bio="short">Short Bio</button>
   </div>
   <div class="press-bio bio-long active">
-    <p data-lang-en><strong>Marcus Vaine</strong> is a guitarist and composer based in New York City, working at the intersection of modern jazz, improvised music, and contemporary composition. His playing has been described as "poised between the cerebral and the deeply lyrical" (DownBeat).</p>
-    <p data-lang-es><strong>Marcus Vaine</strong> es un guitarrista y compositor radicado en Nueva York, trabajando en la intersección del jazz moderno, la música improvisada y la composición contemporánea.</p>
+    <p data-lang-en><strong>Julián Mekler</strong> is a bassist and composer based in Buenos Aires, working at the intersection of modern jazz, improvised music, and contemporary composition.</p>
+    <p data-lang-es><strong>Julián Mekler</strong> es contrabajista y compositor radicado en Buenos Aires, trabajando en la intersección del jazz moderno, la música improvisada y la composición contemporánea.</p>
     <p data-lang-en>His third album, <em>Peripheral Vision</em> (2026), was recorded live at Sear Sound with a quartet. The record has received critical acclaim from DownBeat, The New York Times, JazzTimes, and All About Jazz.</p>
     <p data-lang-es>Su tercer álbum, <em>Peripheral Vision</em> (2026), fue grabado en vivo en Sear Sound con un cuarteto. El disco ha recibido elogios de DownBeat, The New York Times, JazzTimes y All About Jazz.</p>
   </div>
@@ -45,10 +45,10 @@ noindex: true
 <section class="press-s">
   <p class="press-sl"><span data-lang-en>Technical Information</span><span data-lang-es>Información Técnica</span></p>
   <div class="press-tech">
-    <div class="pt"><h4>Ensemble</h4><p>Marcus Vaine — guitar<br>[Name] — piano<br>[Name] — bass<br>[Name] — drums</p></div>
-    <div class="pt"><h4><span data-lang-en>Set Duration</span><span data-lang-es>Duración del Set</span></h4><p>60–90 min</p></div>
-    <div class="pt"><h4><span data-lang-en>Stage Requirements</span><span data-lang-es>Requerimientos de Escenario</span></h4><p data-lang-en>Standard jazz quartet setup. Amplifier provided by artist.</p><p data-lang-es>Setup estándar de cuarteto de jazz. Amplificador provisto por el artista.</p></div>
-    <div class="pt"><h4>Booking</h4><p><a href="mailto:booking@marcusvaine.com">booking@marcusvaine.com</a></p></div>
+    <div class="pt"><h4>Julián Mekler Sexteto</h4><p>Julián Mekler — Contrabajo<br>Jeanette Nenezian — trompeta<br>Lucas Goicoechea — saxo tenor<br>Pía Hernández — piano<br>Pablo Cavalchini - Guitarra<br>Federico Isasti — batería</p></div>
+    <div class="pt"><h4><span data-lang-en>Set Duration</span><span data-lang-es>Duración del set</span></h4><p>60–90 min</p></div>
+    <div class="pt"><h4><span data-lang-en>Stage Requirements</span><span data-lang-es>Requerimientos de Escenario</span></h4><p data-lang-en>Standard sextet setup.</p><p data-lang-es>Setup estándar de sexteto de jazz.</p></div>
+    <div class="pt"><h4>Booking</h4><p><a href="mailto:booking@julianmekler.com">booking@marcusvaine.com</a></p></div>
   </div>
 </section>
 
