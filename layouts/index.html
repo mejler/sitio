@@ -45,7 +45,7 @@
   <div class="music-in">
     <div class="section-hd">
       <span class="section-t"><span data-lang-en>Now Playing</span><span data-lang-es>Escuchá</span></span>
-      <a href="{{ "listen/" | relURL }}" class="section-l"><span data-lang-en>All Releases →</span><span data-lang-es>Discografía completa →</span></a>
+      <a href="{{ "music/" | relURL }}" class="section-l"><span data-lang-en>All Releases →</span><span data-lang-es>Discografía completa →</span></a>
     </div>
     {{ $leaders := where (where .Site.RegularPages "Section" "discography") ".Params.role" "leader" }}
     {{ $featured := index (sort $leaders ".Params.year" "desc") 0 }}
@@ -64,7 +64,7 @@
         <p class="yr"><span data-lang-en>New Release — {{ .Params.year }}</span><span data-lang-es>Nuevo lanzamiento — {{ .Params.year }}</span></p>
         <p data-lang-en>{{ .Params.summary | safeHTML }}</p>
         {{ with .Params.summary_es }}<p data-lang-es>{{ . | safeHTML }}</p>{{ end }}
-        <a href="{{ "listen/" | relURL }}" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
+        <a href="{{ "music/" | relURL }}" class="m-cta"><span data-lang-en>Explore All Music →</span><span data-lang-es>Explorar toda la música →</span></a>
       </div>
     </div>
     {{ end }}
