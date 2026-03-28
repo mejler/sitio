@@ -35,8 +35,8 @@ formats:
     description_es: "Por Zoom o Google Meet. Horarios flexibles, abierto a alumnos de todo el mundo."
   - title: "In Person"
     title_es: "Presencial"
-    description: "Available in Buenos Aires. Contact for details and availability."
-    description_es: "Disponible en Buenos Aires. <a href="www.julianmekler.com/contact">Consultá por disponibilidad.</a>"
+    description: 'Available in Buenos Aires. <a href="https://www.julianmekler.com/contact">Contact for details and availability.</a>"
+    description_es: 'Disponible en Buenos Aires. <a href="https://www.julianmekler.com/contact">Consultá por disponibilidad.</a>'
   - title: "Workshops"
     title_es: "Talleres"
     description: "Available for groups, institutions, festivals, and ensembles."
