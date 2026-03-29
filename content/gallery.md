@@ -26,6 +26,13 @@ photos:
     credit: "© Daniela Haikins"
 
 
+  - src: "images/gallery/roseti-11-2019.jpg"
+    alt: "Live performance"
+    caption: "Roseti Espacio (2019)"
+    caption_es: "Roseti Espacio (2019)"
+    credit: "© Guillermo Beratravide"
+    orientation: "portrait"
+    focus: "top"
   - src: "images/gallery/bebop-2018-3.jpg"
     alt: "Live performance"
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
@@ -55,13 +62,7 @@ photos:
     caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
     credit: "© Antonella Zavalia"
     
-  - src: "images/gallery/roseti-11-2019.jpg"
-    alt: "Live performance"
-    caption: "Roseti Espacio (2019)"
-    caption_es: "Roseti Espacio (2019)"
-    credit: "© Guillermo Beratravide"
-    orientation: "portrait"
-    focus: "top"
+
   - src: "images/gallery/casa-sofia-2016.jpg"
     alt: "Live performance"
     caption: ""
