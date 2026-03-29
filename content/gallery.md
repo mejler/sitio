@@ -61,7 +61,7 @@ photos:
     caption: "Album release show for PANORAMA @prez jazz club - 2025"
     caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
     credit: "© Antonella Zavalia"
-    focus: "top"
+    focus: "center"
 
   - src: "images/gallery/casa-sofia-2016.jpg"
     alt: "Live performance"
