@@ -50,7 +50,6 @@ photos:
     caption: "Despierta espacio (2014)"
     caption_es: "Despierta espacio (2014)"
     orientation: "portrait"
-
   - src: "images/gallery/roseti-11-2019.jpg"
     alt: "Live performance"
     caption: "Roseti Espacio (2019)"
@@ -62,8 +61,7 @@ photos:
     alt: "Recording at the studio"
     caption: "Recording of Invasión! - Estudio Los Elefantes - 2018"
     caption_es: "Grabación de Invasión! - Estudio Los Elefantes - 2018"
-    credit: "© Lulú Scalise"
-    
+    credit: "© Lulú Scalise"    
   - src: "images/gallery/vicente-el-absurdo-03-18.jpg"
     alt: "Julián Mekler Sexteto playing live"
     caption: "Julián Mekler Sextet at Vicente el Absurdo (2018)"
@@ -77,7 +75,7 @@ photos:
     alt: "Live performance"
     caption: "Plachta y la Cocina Magnética + Flor Bobadilla y Nacho Amil @Vicente el Absurdo (2017)"
     caption_es: "Plachta y la Cocina Magnética + Flor Bobadilla y Nacho Amil @Vicente el Absurdo (2017)"    
- - src: "images/gallery/vicente-el-absurdo-11-2017-3.jpg"
+  - src: "images/gallery/vicente-el-absurdo-11-2017-3.jpg"
     alt: "Live performance"
     caption: "Plachta y la Cocina Magnética @Vicente el Absurdo (2017)"
     caption_es: "Plachta y la Cocina Magnética @Vicente el Absurdo (2017)"
@@ -90,9 +88,7 @@ photos:
   - src: "images/gallery/vuela-el-pez-2018.jpg"
     alt: "Live performance"
     caption: "OCHO at Vuela el Pez (2018)"
-    caption_es: "OCHO en Vuela el Pez (2018)"  
- 
-
+    caption_es: "OCHO en Vuela el Pez (2018)" 
   - src: "images/gallery/hasta-trilce-2023.jpg"
     alt: "Live performance"
     caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
