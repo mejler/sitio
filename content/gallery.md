@@ -43,7 +43,13 @@ photos:
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
-    
+  
+  - src: "images/gallery/prez-2025.jpg"
+    alt: "Live performance"
+    caption: "Album release show for PANORAMA @prez jazz club - 2025"
+    caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
+    credit: "© Antonella Zavalia"
+    focus: "center"
   
   - src: "images/gallery/cupula-2016-2.jpg"
     alt: "Live large ensemble performance"
@@ -56,12 +62,7 @@ photos:
     caption_es: "Cobra de John Zorn con William Winant - La Cúpula / CCK - 2016"
     credit: "© Elías Mekler"
   
-  - src: "images/gallery/prez-2025.jpg"
-    alt: "Live performance"
-    caption: "Album release show for PANORAMA @prez jazz club - 2025"
-    caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
-    credit: "© Antonella Zavalia"
-    focus: "center"
+
 
   - src: "images/gallery/casa-sofia-2016.jpg"
     alt: "Live performance"
