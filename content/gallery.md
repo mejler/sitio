@@ -4,7 +4,7 @@ title: "Gallery"
 layout: "gallery"
 type: "page"
 url: "/gallery/"
-row_pattern: [1, 2, 3, 2, 1]
+row_pattern: [1, 2, 3, 2, 1, 2, 3, 2, 3, 1, 2, 2, 1]
 row_heights: ["short", "medium", "tall","short", "tall", "short", "medium"]
 photos:
 
@@ -44,14 +44,6 @@ photos:
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
-
-  
-  - src: "images/gallery/prez-2025.jpg"
-    alt: "Live performance"
-    caption: "Album release show for PANORAMA @prez jazz club - 2025"
-    caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
-    credit: "© Antonella Zavalia"
-    focus: "center"
   
   - src: "images/gallery/cupula-2016-2.jpg"
     alt: "Live large ensemble performance"
@@ -64,21 +56,18 @@ photos:
     caption_es: "Cobra de John Zorn con William Winant - La Cúpula / CCK - 2016"
     credit: "© Elías Mekler"
   
-
-
-  - src: "images/gallery/casa-sofia-2016.jpg"
+  - src: "images/gallery/prez-2025.jpg"
     alt: "Live performance"
-    caption: ""
-    caption_es: ""
-    credit: "© Camila Dorsi"
-    
- 
+    caption: "Album release show for PANORAMA @prez jazz club - 2025"
+    caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
+    credit: "© Antonella Zavalia"
+    focus: "center"
+
   - src: "images/gallery/despierta-03-14.jpg"
     alt: "Live performance"
     caption: "Despierta espacio (2014)"
     caption_es: "Despierta espacio (2014)"
     orientation: "portrait"
-
   - src: "images/gallery/cck-2016.jpg"
     alt: "Live Big Band performance"
     caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)"
@@ -89,6 +78,11 @@ photos:
     caption: "Ben Goldberg's Residency at Jazz Residencies Program at Centro Cultural Kirchner (2016)"
     caption_es: "Residencia de Ben Goldberg en el programa Residencias Jazz - Centro Cultural Kirchner (2016)"  
 
+  - src: "images/gallery/casa-sofia-2016.jpg"
+    alt: "Live performance"
+    caption: ""
+    caption_es: ""
+    credit: "© Camila Dorsi"
   - src: "images/gallery/los-elefantes-2018.jpg"
     alt: "Recording at the studio"
     caption: "Recording of Invasión! - Estudio Los Elefantes - 2018"
