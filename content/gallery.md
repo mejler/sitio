@@ -4,9 +4,27 @@ title: "Gallery"
 layout: "gallery"
 type: "page"
 url: "/gallery/"
-row_pattern: [2, 3, 2, 3]
+row_pattern: [1, 2, 3, 2, 3, 2]
 row_heights: ["tall", "medium", "short", "medium"]
 photos:
+
+  - src: "images/gallery/hasta-trilce-2023-2.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
+    
+  - src: "images/gallery/hasta-trilce-2023.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
+  - src: "images/gallery/hasta-trilce-2023-3.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
+
 
   - src: "images/gallery/bebop-2018-3.jpg"
     alt: "Live performance"
@@ -19,22 +37,7 @@ photos:
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
     
-  - src: "images/gallery/hasta-trilce-2023.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
-  - src: "images/gallery/hasta-trilce-2023-2.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
-  - src: "images/gallery/hasta-trilce-2023-3.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
-
+  
   - src: "images/gallery/cupula-2016-2.jpg"
     alt: "Live large ensemble performance"
     caption: "John Zorn's Cobra with William Winant - La Cúpula / CCK - 2016"
