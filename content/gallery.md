@@ -22,7 +22,7 @@ photos:
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
-  - src: "images/gallery/bebop-2018-4.jpg"
+  - src: "images/gallery/bebop-2018-4.JPG"
     alt: "Live performance"
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
