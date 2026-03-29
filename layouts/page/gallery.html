@@ -18,8 +18,8 @@
     {{ $i = 0 }}
     {{ $rowNum = 0 }}
     {{/* Pattern: 2 tall, 3 medium, 2 short, 3 medium, repeat */}}
-    {{ $patterns := slice 2 3 2 3 }}
-    {{ $heights := slice "tall" "medium" "short" "medium" }}
+    {{{ $patterns := .Params.row_pattern | default (slice 2 3 2 3) }}
+    {{ $heights := .Params.row_heights | default (slice "tall" "medium" "short" "medium") }}
     {{ range $idx, $photo := $photos }}
       {{ $patIdx := mod $rowNum 4 }}
       {{ $rowSize := index $patterns $patIdx }}
