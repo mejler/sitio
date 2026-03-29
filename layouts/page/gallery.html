@@ -21,7 +21,8 @@
     {{ $patterns := .Params.row_pattern | default (slice 2 3 2 3) }}
     {{ $heights := .Params.row_heights | default (slice "tall" "medium" "short" "medium") }}
     {{ range $idx, $photo := $photos }}
-      {{ $patIdx := mod $rowNum 4 }}
+      {{ $patLen := len $patterns }}
+      {{ $patIdx := mod $rowNum $patLen }}
       {{ $rowSize := index $patterns $patIdx }}
       {{ $rowHeight := index $heights $patIdx }}
       {{/* Open row */}}
