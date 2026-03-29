@@ -54,7 +54,7 @@ photos:
     alt: "Rehearsal at Residency"
     caption: "Ben Goldberg's Residency at Jazz Residencies Program at Centro Cultural Kirchner (2016)"
     caption_es: "Residencia de Ben Goldberg en el programa Residencias Jazz - Centro Cultural Kirchner (2016)"
-- src: "images/gallery/hasta-trilce-2023.jpg"
+  - src: "images/gallery/hasta-trilce-2023.jpg"
     alt: "Live performance"
     caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
     caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
