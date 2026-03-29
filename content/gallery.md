@@ -91,15 +91,16 @@ photos:
     caption_es: "Vicente el Absurdo (2018)"
     credit: "© Elías Mekler"
 
+  - src: "images/gallery/vuela-el-pez-2018.jpg"
+    alt: "Live performance"
+    caption: "OCHO at Vuela el Pez (2018)"
+    caption_es: "OCHO en Vuela el Pez (2018)"
   - src: "images/gallery/jazz-a-la-calle-01-2023.jpg"
     alt: "Live performance"
     caption: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     caption_es: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     credit: "© Héctor Cacheiro"
-  - src: "images/gallery/vuela-el-pez-2018.jpg"
-    alt: "Live performance"
-    caption: "OCHO at Vuela el Pez (2018)"
-    caption_es: "OCHO en Vuela el Pez (2018)"
+
     
   - src: "images/gallery/vicente-el-absurdo-11-2017.jpg"
     alt: "Live performance"
