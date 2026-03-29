@@ -16,6 +16,22 @@ photos:
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
+    
+  - src: "images/gallery/hasta-trilce-2023.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
+  - src: "images/gallery/hasta-trilce-2023-2.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
+  - src: "images/gallery/hasta-trilce-2023-3.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
 
   - src: "images/gallery/cupula-2016-2.jpg"
     alt: "Live large ensemble performance"
@@ -99,21 +115,7 @@ photos:
     caption: "OCHO at Vuela el Pez (2018)"
     caption_es: "OCHO en Vuela el Pez (2018)"
     
-  - src: "images/gallery/hasta-trilce-2023.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
-  - src: "images/gallery/hasta-trilce-2023-2.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
-  - src: "images/gallery/hasta-trilce-2023-3.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
+
     
   - src: "images/gallery/moebio-2022.jpg"
     alt: "Recording at the studio"
