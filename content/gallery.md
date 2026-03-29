@@ -8,17 +8,18 @@ row_pattern: [1, 2, 3, 1, 2, 3, 2, 3, 2, 1]
 row_heights: ["short", "medium", "tall","short", "tall", "short", "medium"]
 photos:
 
+  - src: "images/gallery/hasta-trilce-2023.jpg"
+    alt: "Live performance"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
+    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
+    credit: "© Daniela Haikins"
   - src: "images/gallery/hasta-trilce-2023-2.jpg"
     alt: "Live performance"
     caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
     caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
     credit: "© Daniela Haikins"
     
-  - src: "images/gallery/hasta-trilce-2023.jpg"
-    alt: "Live performance"
-    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
-    caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
-    credit: "© Daniela Haikins"
+
   - src: "images/gallery/hasta-trilce-2023-3.jpg"
     alt: "Live performance"
     caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
@@ -33,16 +34,17 @@ photos:
     credit: "© Guillermo Beratravide"
     orientation: "portrait"
     focus: "top"
-  - src: "images/gallery/bebop-2018-3.jpg"
-    alt: "Live performance"
-    caption: "Julián Mekler Sexteto @Bebop Club - 2018"
-    caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
-    credit: "© Lulú Scalise"
   - src: "images/gallery/bebop-2018-4.JPG"
     alt: "Live performance"
     caption: "Julián Mekler Sexteto @Bebop Club - 2018"
     caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
     credit: "© Lulú Scalise"
+  - src: "images/gallery/bebop-2018-3.jpg"
+    alt: "Live performance"
+    caption: "Julián Mekler Sexteto @Bebop Club - 2018"
+    caption_es: "Julián Mekler Sexteto @Bebop Club - 2018"
+    credit: "© Lulú Scalise"
+
   
   - src: "images/gallery/prez-2025.jpg"
     alt: "Live performance"
