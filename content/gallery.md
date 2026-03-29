@@ -4,6 +4,8 @@ title: "Gallery"
 layout: "gallery"
 type: "page"
 url: "/gallery/"
+row_pattern: [2, 3, 2, 3]
+row_heights: ["tall", "medium", "short", "medium"]
 photos:
 
   - src: "images/gallery/bebop-2018-3.jpg"
