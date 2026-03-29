@@ -10,7 +10,12 @@ photos:
     alt: "Live Big Band performance"
     caption: "CSMMF Big Band - Centro Cultural Kirchner (2016)"
     caption_es: "Big Band del CSMMF - Sala Argentina del Centro Cultural Kirchner (2016)"
-    credit: "© Elías Mekler"  
+    credit: "© Elías Mekler"
+  - src: "images/gallery/prez-2025.jpg"
+    alt: "Live performance"
+    caption: "Album release show for PANORAMA @prez jazz club - 2025"
+    caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
+    credit: "© Antonella Zavalia"
   - src: "images/gallery/despierta-03-14.jpg"
     alt: "Live performance"
     caption: "Despierta espacio (2014)"
