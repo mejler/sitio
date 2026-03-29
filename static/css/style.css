@@ -101,12 +101,13 @@ nav.scrolled{background:rgba(10,10,10,.92);backdrop-filter:blur(20px);-webkit-ba
 .show-date{font-family:var(--head);font-size:1.15rem;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
 .show-venue{display:flex;flex-direction:column;gap:.15rem}
 .show-vn{font-size:.95rem;font-weight:400}.show-vn a{color:var(--t1)}.show-vn a:hover{color:var(--ac)}
-.show-vl{font-size:.75rem;color:var(--t3);letter-spacing:.05em}
+.show-vl{font-size:.75rem;color:var(--t2);letter-spacing:.05em}
 .show-tk{font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--ac);border:1px solid var(--acd);padding:.4rem 1.25rem;white-space:nowrap;transition:all .3s var(--ease)}
 .show-tk:hover{background:rgba(196,168,122,.1);border-color:var(--ac)}
 .show-nt{font-size:.65rem;letter-spacing:.1em;color:var(--t3);font-style:italic}
 .show-row.past{opacity:.4}.show-row.past .show-tk{display:none}
 .shows-div{font-family:var(--head);font-size:1rem;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:3rem 0 0;padding:1rem 0}
+
 
 /* ========== LISTEN ========== */
 .listen{padding:0 3rem 7rem;max-width:1200px;margin:0 auto}
