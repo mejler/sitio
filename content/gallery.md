@@ -54,34 +54,34 @@ photos:
     alt: "Rehearsal at Residency"
     caption: "Ben Goldberg's Residency at Jazz Residencies Program at Centro Cultural Kirchner (2016)"
     caption_es: "Residencia de Ben Goldberg en el programa Residencias Jazz - Centro Cultural Kirchner (2016)"
-  - src: "images/gallery/hasta-trilce-2023.jpg"
+- src: "images/gallery/hasta-trilce-2023.jpg"
     alt: "Live performance"
-    caption: "Release show for 'Vida útil' - Hasta Trilce (2023)"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
     caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
     credit: "© Daniela Haikins"
   - src: "images/gallery/hasta-trilce-2023-2.jpg"
     alt: "Live performance"
-    caption: "Release show for 'Vida útil' - Hasta Trilce (2023)"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
     caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
     credit: "© Daniela Haikins"
   - src: "images/gallery/hasta-trilce-2023-3.jpg"
     alt: "Live performance"
-    caption: "Release show for 'Vida útil' - Hasta Trilce (2023)"
+    caption: 'Release show for "Vida útil" - Hasta Trilce (2023)'
     caption_es: 'Presentación de "Vida útil" en Hasta Trilce (2023)'
     credit: "© Daniela Haikins"
   - src: "images/gallery/moebio-2022.jpg"
     alt: "Recording at the studio"
-    caption: "Recording sessions for 'Vida útil'"
+    caption: "Recording sessions for Vida útil"
     caption_es: 'Sesiones de grabación de "Vida útil" - Estudio Moebio 2022'
     credit: "© Lulú Scalise"
-    - src: "images/gallery/moebio-2022-2.jpg"
+  - src: "images/gallery/moebio-2022-2.jpg"
     alt: "Recording at the studio"
-    caption: "Recording sessions for 'Vida útil'"
+    caption: "Recording sessions for Vida útil"
     caption_es: 'Sesiones de grabación de "Vida útil" - Estudio Moebio 2022'
     credit: "© Lulú Scalise"
   - src: "images/gallery/moebio-2022-3.jpg"
     alt: "Recording at the studio"
-    caption: "Recording sessions for 'Vida útil'"
+    caption: "Recording sessions for Vida útil"
     caption_es: 'Sesiones de grabación de "Vida útil" - Estudio Moebio 2022'
     credit: "© Lulú Scalise"
 
