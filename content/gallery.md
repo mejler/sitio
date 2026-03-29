@@ -5,7 +5,7 @@ layout: "gallery"
 type: "page"
 url: "/gallery/"
 row_pattern: [1, 2, 3, 2, 3, 2]
-row_heights: ["short", "medium", "tall", "medium", "short", "medium"]
+row_heights: ["short", "medium", "medium", "tall", "short", "medium"]
 photos:
 
   - src: "images/gallery/hasta-trilce-2023-2.jpg"
@@ -61,7 +61,7 @@ photos:
     caption: "Album release show for PANORAMA @prez jazz club - 2025"
     caption_es: 'Presentación de PANORAMA @prez jazz club - 2025'
     credit: "© Antonella Zavalia"
-    
+    focus: "top"
 
   - src: "images/gallery/casa-sofia-2016.jpg"
     alt: "Live performance"
