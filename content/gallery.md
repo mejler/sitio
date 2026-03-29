@@ -4,8 +4,8 @@ title: "Gallery"
 layout: "gallery"
 type: "page"
 url: "/gallery/"
-row_pattern: [1, 2, 3, 2, 3, 2]
-row_heights: ["short", "medium", "medium", "tall", "short", "medium"]
+row_pattern: [1, 2, 3, 1, 2, 3, 2, 3, 2, 1]
+row_heights: ["short", "medium", "tall","short", "tall", "short", "medium"]
 photos:
 
   - src: "images/gallery/hasta-trilce-2023-2.jpg"
