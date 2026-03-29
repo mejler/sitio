@@ -100,8 +100,7 @@ photos:
     caption: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     caption_es: "La Cocina Magnética - 15º Jazz a la Calle (2023)"
     credit: "© Héctor Cacheiro"
-
-    
+        
   - src: "images/gallery/vicente-el-absurdo-11-2017.jpg"
     alt: "Live performance"
     caption: "Plachta y la Cocina Magnética @Vicente el Absurdo (2017)"
@@ -115,11 +114,7 @@ photos:
     caption: "Plachta y la Cocina Magnética @Vicente el Absurdo (2017)"
     caption_es: "Plachta y la Cocina Magnética @Vicente el Absurdo (2017)"
     orientation: "portrait"
-    
- 
-    
-
-    
+        
   - src: "images/gallery/moebio-2022.jpg"
     alt: "Recording at the studio"
     caption: "Recording sessions for Vida útil"
