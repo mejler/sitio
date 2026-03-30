@@ -58,8 +58,8 @@ education:
     detail: "Plan de 3 años"
     detail_es: "Descripción de los estudios."
 
-additional_edu: "Text about other education activities..."
-additional_edu_es: "Texto sobre otras actividades educativas..."
+additional_edu: "Beyond formal studies, I participated in specialized training programs such as the Jazz Residencies program at Centro Cultural Kirchner, the III Argentine Encounter on Improvisation and Musical Composition organized by the Fondo Nacional de las Artes, and the School for Improvisational Music in New York. An important part of my education took place through direct contact with local and international artists in ensemble classes, private lessons, and workshops."
+additional_edu_es: "Además de estudios formales participé en distintos programas especiales de capacitación como el programa de Residencias Jazz del Centro Cultural Kirchner, el III Encuentro Argentino de Improvisación y Composición Musical organizado por el Fondo Nacional de las Artes y la School for Improvisational Music en Nueva York. Parte importante de mi formación ocurrió en contacto directo con diversos artistas locales e internacionales en clases de ensamble, clases particulares y talleres."
 
 experience:
   - years: "2023 –"
@@ -82,6 +82,6 @@ experience:
     detail: "Teaching Ear Training, Bass (acoustic/electric) and Ensembles."
     detail_es: "Clases de entrenamiento auditivo, bajo (eléctrico y acústico) y ensambles."
 
-additional_exp: "Text about other professional activities..."
-additional_exp_es: "Texto sobre otras actividades profesionales..."
+additional_exp: "In addition to institutional and private teaching, I have experience working with ensembles of different formats and have led masterclasses and clinics at festivals and conferences in Argentina and abroad. My teaching work ranges from training musicians in early stages to accompanying experienced musicians looking to deepen specific aspects of their practice."
+additional_exp_es: "Además de la actividad en instituciones y de manera particular, tengo experiencia trabajando con ensambles de distintos formatos y he dictado clases magistrales y clínicas en festivales y congresos en Argentina y en el exterior. Mi trabajo docente abarca tanto la formación de músicos en etapas iniciales como el acompañamiento de músicos con trayectoria que buscan profundizar en aspectos específicos de su práctica."
 ---
