@@ -1,4 +1,4 @@
-baseURL = "https://mejler.github.io/sitio/"
+baseURL = "https://julianmekler.com/"
 languageCode = "en"
 title = "Julian Mekler"
 buildFuture = true
