@@ -58,8 +58,8 @@ education:
     detail: "Plan de 3 años"
     detail_es: "Descripción de los estudios."
 
-additional_edu: "Beyond formal studies, I participated in specialized training programs such as the Jazz Residencies program at Centro Cultural Kirchner, the III Argentine Encounter on Improvisation and Musical Composition organized by the Fondo Nacional de las Artes, and the School for Improvisational Music in New York. An important part of my education took place through direct contact with local and international artists in ensemble classes, private lessons, and workshops."
-additional_edu_es: "Además de estudios formales participé en distintos programas especiales de capacitación como el programa de Residencias Jazz del Centro Cultural Kirchner, el III Encuentro Argentino de Improvisación y Composición Musical organizado por el Fondo Nacional de las Artes y la School for Improvisational Music en Nueva York. Parte importante de mi formación ocurrió en contacto directo con diversos artistas locales e internacionales en clases de ensamble, clases particulares y talleres."
+additional_edu: "Beyond formal studies, I participated in specialized training programs such as the Jazz Residencies program at Centro Cultural Kirchner, the III Argentine Encounter on Improvisation and Musical Composition organized by the Fondo Nacional de las Artes, and the Summer Intensive Workshop at the School for Improvisational Music in New York. An important part of my education took place through direct contact with local and international artists in ensemble classes, private lessons, and workshops."
+additional_edu_es: "Además de estudios formales participé en distintos programas especiales de capacitación como el programa de Residencias Jazz del Centro Cultural Kirchner, el III Encuentro Argentino de Improvisación y Composición Musical organizado por el Fondo Nacional de las Artes y al taller intensivo de la School for Improvisational Music en Nueva York. Parte importante de mi formación ocurrió en contacto directo con diversos artistas locales e internacionales en clases de ensamble, clases particulares y talleres."
 
 experience:
   - years: "2023 –"
