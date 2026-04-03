@@ -313,10 +313,13 @@ footer{border-top:1px solid var(--brd);padding:3rem;display:flex;align-items:cen
 @media(max-width:768px){
   nav{padding:1.25rem 1.5rem}nav.scrolled{padding:1rem 1.5rem}
   .nav-links,.nav-right .lang-toggle{display:none}.nav-toggle{display:block}
-  .nav-right.open{display:flex;flex-direction:column;position:fixed;inset:0;background:rgba(10,10,10,.97);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);justify-content:center;align-items:center;gap:2rem;z-index:200}
-  .nav-right.open .nav-links{display:flex;flex-direction:column;align-items:center;gap:2rem}
-  .nav-right.open .nav-links a{font-size:1.1rem;letter-spacing:.2em;color:var(--t1)}
-  .nav-right.open .lang-toggle{display:inline-block;margin-top:1rem;font-size:.75rem;padding:.5rem 1.25rem}
+  .nav-right{visibility:hidden;pointer-events:none;position:fixed;inset:0;z-index:200;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:2rem;background:rgba(10,10,10,0);backdrop-filter:blur(0px);-webkit-backdrop-filter:blur(0px);transition:background .3s var(--ease),backdrop-filter .3s var(--ease),-webkit-backdrop-filter .3s var(--ease),visibility 0s .3s}
+  .nav-right.open{visibility:visible;pointer-events:auto;background:rgba(10,10,10,.97);backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px);transition:background .3s var(--ease),backdrop-filter .3s var(--ease),-webkit-backdrop-filter .3s var(--ease),visibility 0s 0s}
+  .nav-right .nav-links{display:flex;flex-direction:column;align-items:center;gap:2rem;opacity:0;transform:translateY(10px);transition:opacity .3s var(--ease),transform .3s var(--ease)}
+  .nav-right.open .nav-links{opacity:1;transform:translateY(0)}
+  .nav-right .nav-links a{font-size:1.1rem;letter-spacing:.2em;color:var(--t1)}
+  .nav-right .lang-toggle{display:inline-block;margin-top:1rem;font-size:.75rem;padding:.5rem 1.25rem;opacity:0;transition:opacity .3s var(--ease)}
+  .nav-right.open .lang-toggle{opacity:1}
   .page-hd{padding:8rem 1.5rem 3rem}.section{padding:4rem 1.5rem}
   .section-hd{flex-direction:column;gap:.75rem}
   .hero-c{padding:0 1.5rem 4rem}.hero-name{white-space:nowrap;font-size:clamp(2.2rem,12vw,4rem)}.hero-scroll{display:none}
